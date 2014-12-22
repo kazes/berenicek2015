@@ -1,5 +1,6 @@
 <div id="footer">
-    
-    hello footer
-    
-</div><!-- #footer -->
+    <div class="page-width">
+
+        hello footer
+    </div>
+</div>
