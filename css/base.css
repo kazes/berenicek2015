@@ -129,6 +129,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* HEADER */
+#logo-berenicek {
+}
+#logo-berenicek img {
+    display: block;
+    margin: auto;
+}
+
 /* MINI FOLIOS */
 .mini-folios-container {
     overflow: hidden;
@@ -157,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: auto;
     max-width: 100%;
-    transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease-in;
 }
 .mini-folio .pic:hover img {
     transform: scale(1.05);
@@ -199,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: 0;
     bottom: 0;
-    transition: transform 200ms ease-in-out, color 200ms ease-in-out 100ms;
+    transition: transform 200ms ease-in, color 200ms ease-in 100ms;
 }
 .mini-folio .more:hover:after {
     transform: rotate(90deg);
@@ -221,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*transition:background-color 150ms ease-in-out, color 150ms ease-in-out;*/
+    /*transition:background-color 150ms ease-in, color 150ms ease-in;*/
 }
 .bt-contact a:hover {
     text-decoration: none;
@@ -229,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;*/
 }
 .bt-contact a .excla {
-    transition:transform 300ms ease-out;
+    transition:transform 300ms ease-in;
 }
 .bt-contact a:hover .excla {
     transform: rotate(360deg);
