@@ -87,22 +87,32 @@ input.submit {
 
 }
 .page-width {
-    width: 940px;
+    box-sizing: border-box;
+    max-width: 940px;
     margin: 0 auto;
+}
+.page-gutters{
+    padding-left: 20px; /* 20px / 940px */
+    padding-right: 20px;/* 20px / 940px */
 }
 
 /* LINKS */
 a {
-    color:#666;
+    color:#575a5d;
+    text-decoration: none;
     cursor:pointer;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 /* TITLES */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    font-weight: 600;
     font-size: inherit;
 }
 .title-1 {
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1.4px;
@@ -110,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 .title-2 {
+    font-weight: 400;
     font-family: Georgia, Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #a2a5a4;
@@ -121,6 +132,75 @@ h1, h2, h3, h4, h5, h6 {
 /* FOOTER */
 #footer {
     background: #e6e6e6;
+    padding-top: 36px;
+}
+#footer .inside {
+    background: url(../img/skin/penguins.png) 100% 36% no-repeat;
+}
+#footer .section .title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4b4d50;
+    padding-bottom: 29px;
+}
+#footer .section .list {
+    padding-bottom: 23px;
+}
+#footer .section .item {
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 11px;
+    color: #a2a5a4;
+    padding-bottom: 8px;
+}
+#footer .section .item a {
+    color: #a2a5a4;
+}
+#footer .column {
+    float: left;
+    width: 26.60%;/* 250px / 940px */
+}
+#footer .column-1 {
+    width: 23.40%;/* 220px / 940px */
+}
+
+/* SECTION FOLLOW ME */
+#ft-section-4 .item a {
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -9999px;
+    background-image: url(../img/skin/sprites-social.png);
+    background-repeat: no-repeat;
+}
+/* PINTEREST */
+#ft-section-4 .item-0 a {
+    background-position: 0 0;
+}
+/* FACEBOOK */
+#ft-section-4 .item-1 a {
+    background-position: 0 -62px;
+}
+
+
+/* CREDITS */
+#credits {
+    clear: both;
+    text-align: center;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    color: #4b4d50;
+    padding-top: 39px;
+    padding-bottom: 14px;
+}
+#credits a {
+    color: #4b4d50;
 }
 
 
