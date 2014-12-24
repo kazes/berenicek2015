@@ -129,6 +129,113 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* MINI FOLIOS */
+.mini-folios-container {
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+.mini-folio {
+    float: left;
+    width: 23.40%;/* 220px / 940px */
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    margin-right: 2.1333333333333333%;/* 20px / 940px */
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mini-folio:nth-child(4) {
+    margin-right: 0;
+}
+.mini-folio .pic {
+    display: block;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.mini-folio .pic img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    transition: transform 400ms ease-in-out;
+}
+.mini-folio .pic:hover img {
+    transform: scale(1.05);
+}
+.mini-folio .title {
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #575a5d;
+    padding-bottom: 10px;
+}
+.mini-folio .desc {
+    line-height: 16px;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 11px;
+    color: #a2a5a4;
+    padding-bottom: 16px;
+}
+.mini-folio .more {
+    background-color: #e6e6e6;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.mini-folio .more:after {
+    content: "+";
+    display: block;
+    font-size: 30px;
+    line-height: 33px;
+    color: #a2a5a4;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: transform 200ms ease-in-out, color 200ms ease-in-out 100ms;
+}
+.mini-folio .more:hover:after {
+    transform: rotate(90deg);
+    color: #4b4d50;
+}
+
+
+/* BUTTON CONTACTEZ-MOI */
+.bt-contact {
+    text-align: center;
+    padding-bottom: 58px;
+}
+.bt-contact a {
+    background-color: #fff6b0;
+    padding: 17px 30px 16px 30px;
+    display: inline-block;
+    color: #575a5d;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /*transition:background-color 150ms ease-in-out, color 150ms ease-in-out;*/
+}
+.bt-contact a:hover {
+    text-decoration: none;
+    /*background-color: lightpink;
+    color: #ffffff;*/
+}
+.bt-contact a .excla {
+    transition:transform 300ms ease-out;
+}
+.bt-contact a:hover .excla {
+    transform: rotate(360deg);
+}
+
+
 /* FOOTER */
 #footer {
     background: #e6e6e6;

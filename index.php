@@ -16,6 +16,14 @@
                 Identité , Charte graphique & web, Ergonomie, Charte photo, Création &  gestion des auto-promotions, Management d’une équipe, Direction de projet.
             </h3>
 
+            <?php include('inc/mini-portfolio.inc.php'); ?>
+
+            <p class="bt-contact">
+                <a href="#">
+                    contactez-moi, c’est sympa <span class="excla">!</span>
+                </a>
+            </p>
+
 
         </div>
         
