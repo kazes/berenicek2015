@@ -111,37 +111,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-size: inherit;
 }
-.title-1 {
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1.4px;
-    color: #575a5d;
-    text-align: center;
-}
-.title-2 {
-    font-weight: 400;
-    font-family: Georgia, Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    color: #a2a5a4;
-    font-style: italic;
-    text-align: center;
-}
 
 
 /* HEADER */
-#logo-berenicek {
-}
 #logo-berenicek img {
     display: block;
-    visibility: hidden;/* temp */
+    padding: 85px 0 38px 0;
     margin: auto;
 }
+
 
 /* MENU */
 .menu,
 #menu-container {
     overflow: hidden;
+}
+#menu-container {
+    padding-bottom: 40px;
 }
 .menu.left {
     float: left;
@@ -151,13 +137,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu .item {
     float: left;
+    padding: 0 20px 0 0;
+}
+.menu.right .item {
+    padding: 0 0 0 20px;
 }
 .menu .item a {
     background-color: #e6e6e6;
     color: #575a5d;
     min-width: 124px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
     text-align: center;
-    padding: 10px 0;
+    padding: 9px 0;
     display: block;
     text-transform: uppercase;
     transition: background-color 150ms ease-in;
@@ -166,6 +158,67 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff6b0;
     text-decoration: none;
 }
+
+
+/* PROJECTS */
+#projects-container {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+.project {
+    background-color: #f7f7f7;
+    padding-top: 45px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+.project .title-1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #232425;
+    text-align: center;
+}
+.project .title-2 {
+    font-weight: 400;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #a2a5a4;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.project .pic {
+    padding-bottom: 70px;
+}
+.project .pic img {
+    display: block;
+    margin: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+
+/* PROJECT - BONNE BOX */
+#project-1 {
+    background: #2a2b2c; /* Old browsers */
+    background: radial-gradient(ellipse at center,  #2a2b2c 0%,#2a2b2c 0%,#46494b 100%,#494c4e 100%); /* W3C */
+
+}
+#project-1 .title-1 {
+    color: #CDCDCD;
+}
+#project-1 .title-2 {
+    color: #a2a5a4;
+}
+#project-1 .pic {
+    padding-bottom: 0;
+}
+#project-1 .pic img {
+    box-shadow: 0px 3px 9.2px 0.8px rgba(0, 0, 0, 0.4);
+}
+
 
 /* MINI FOLIOS */
 .mini-folios-container {
