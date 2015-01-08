@@ -10,8 +10,8 @@
 
 
         <!-- MENU -->
-        <div id="menu-container">
-            <ul class="menu left">
+        <div id="menu-container" class="line">
+            <ul class="menu left line">
                 <li class="item">
                     <a href="#">
                         Porfolio
@@ -24,7 +24,7 @@
                 </li>
             </ul>
 
-            <ul class="menu right">
+            <ul class="menu right line">
                 <li class="item">
                     <a href="#">
                         Drawings

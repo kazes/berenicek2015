@@ -114,20 +114,29 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* HEADER */
+#header {
+    padding-top: 75px;
+}
+
+/* LOGO BERENICEK */
 #logo-berenicek img {
     display: block;
-    padding: 85px 0 38px 0;
+    padding:10px 0 38px 0;
     margin: auto;
+}
+#logo-berenicek.scroll-to-fixed-fixed {
+
 }
 
 
 /* MENU */
 .menu,
 #menu-container {
-    overflow: hidden;
+
+    padding-bottom: 20px;
 }
 #menu-container {
-    padding-bottom: 40px;
+    padding-top: 23px;
 }
 .menu.left {
     float: left;
@@ -141,6 +150,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu.right .item {
     padding: 0 0 0 20px;
+}
+#menu-container.scroll-to-fixed-fixed  {
+    background-color: #ffffff;
+    /*box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3);*/
 }
 .menu .item a {
     background-color: #e6e6e6;

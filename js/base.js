@@ -29,18 +29,26 @@ var log = function(x) {
 ----------------------------------------------------------------------------- */
 $(d).ready(function(){
 
-    // call functions
-    pm.example();                 // just an example
+
+    pm.fixHeader();
 
 
 });
 
 
-/*  =EXAMPLE
------------------------------------------------------------------------------ */
-pm.example = function() {
-    log('example function');
-    
+/* FIX HEADER WHEN SCROLLING */
+pm.fixHeader = function() {
+    // fix logo
+    $('#logo-berenicek').scrollToFixed({
+        //marginTop:10,
+        zIndex:2
+    });
+
+
+    // fix menu
+    $('#menu-container').scrollToFixed({
+        zIndex:1
+    });
 };
 
 
