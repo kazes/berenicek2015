@@ -118,13 +118,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 75px;
 }
 
+
 /* LOGO BERENICEK */
-#logo-berenicek img {
-    display: block;
-    padding:10px 0 38px 0;
-    margin: auto;
+#logo-berenicek  {
+
+
 }
-#logo-berenicek.scroll-to-fixed-fixed {
+#logo-berenicek a {
+    width: 277px;
+    display: block;
+    margin:0 auto 35px auto;
+    padding-top: 10px;
+
+}
+#logo-berenicek.scroll-to-fixed-fixed img {
 
 }
 
@@ -132,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 /* MENU */
 .menu,
 #menu-container {
-
     padding-bottom: 20px;
 }
 #menu-container {
@@ -153,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #menu-container.scroll-to-fixed-fixed  {
     background-color: #ffffff;
+    z-index: 1;
     /*box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3);*/
 }
 .menu .item a {
@@ -166,15 +173,32 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     text-transform: uppercase;
     transition: background-color 150ms ease-in;
+    position: relative;
 }
-.menu .item a:hover {
+.menu .item a:hover,
+.menu .item.active a{
     background-color: #fff6b0;
     text-decoration: none;
+}
+.menu .item.active a:after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent #ffffff transparent;
+    margin-left:-8px;
+}
+.menu .item.active a{
+    cursor: default;
 }
 
 
 /* PROJECTS */
-#projects-container {
+#portfolio {
     padding-bottom: 18px;
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 20px;

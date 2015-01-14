@@ -10,7 +10,7 @@
         <?php include('inc/header.inc.php'); ?>
         
         <div id="page" class="page-width">
-            <div id="projects-container">
+            <div id="portfolio">
                 <!-- PROJECT -->
                 <div class="project" id="project-0">
                     <h2 class="title-1">

@@ -3,7 +3,7 @@
 
         <!-- LOGO -->
         <h1 id="logo-berenicek">
-            <a href="#">
+            <a href="#content" class="JS_scroll-to" title="haut de page ↑">
                 <img src="img/data/berenicek-logo.png" alt="Bérénice K. Directrice Artistique e-commerce">
             </a>
         </h1>
@@ -12,7 +12,7 @@
         <!-- MENU -->
         <div id="menu-container" class="line">
             <ul class="menu left line">
-                <li class="item">
+                <li class="item active">
                     <a href="#">
                         Porfolio
                     </a>

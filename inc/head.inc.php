@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/base.css" type="text/css">
 
 
-<title>Bérénicek</title>
+<title>Bérénice K. - Directrice Artistique E-Commerce</title>
 <script>
     var hasJS = function() {
         var htmlTag = document.getElementsByTagName('html')[0];
