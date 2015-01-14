@@ -90,11 +90,13 @@ input.submit {
     box-sizing: border-box;
     max-width: 940px;
     margin: 0 auto;
+    position: relative;
 }
 .page-gutters{
     padding-left: 20px; /* 20px / 940px */
     padding-right: 20px;/* 20px / 940px */
 }
+
 
 /* LINKS */
 a {
@@ -106,6 +108,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 /* TITLES */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
@@ -115,19 +118,43 @@ h1, h2, h3, h4, h5, h6 {
 
 /* HEADER */
 #header {
-    padding-top: 75px;
+
+}
+
+
+/* TRIANGLES */
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    pointer-events: none;
+    z-index: 2;
+}
+#triangle-blue {
+    top: 156px;
+    left: 550px;
+    border-width: 0 91px 140px 91px;
+    border-color: transparent transparent #b8ebef transparent;
+    opacity: 0.4;
+}
+#triangle-pink {
+    top: 0;
+    left: 90px;
+    border-width: 90px 58px 0 58px;
+    border-color: #ffe6ef transparent transparent transparent;
 }
 
 
 /* LOGO BERENICEK */
 #logo-berenicek  {
-
-
+    padding-top: 75px;
+    /*visibility: hidden;*/
 }
 #logo-berenicek a {
     width: 277px;
     display: block;
-    margin:0 auto 35px auto;
+    margin:0 auto 10px auto;
     padding-top: 10px;
 
 }
@@ -143,6 +170,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #menu-container {
     padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .menu.left {
     float: left;

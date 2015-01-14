@@ -1,5 +1,8 @@
 <div id="header">
     <div class="page-width">
+        <!-- TRIANGLES -->
+        <div class="triangle" id="triangle-pink"></div>
+        <div class="triangle" id="triangle-blue"></div>
 
         <!-- LOGO -->
         <h1 id="logo-berenicek">
