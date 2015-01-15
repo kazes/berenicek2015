@@ -1,32 +1,20 @@
 /*------------------------------------------------------------------------------
     JS Document (https://developer.mozilla.org/en/JavaScript)
 
-    project:    Project
-    created:    YYYY-MM-DD
-    author:     johdoe
+    project:    Bérénice K. Portfolio 2015
+    created:    2014-12-22
+    author:     Florian Boudot - www.papadiv.com
     
 ----------------------------------------------------------------------------- */
 
 
-/*  =CONSTANTES
------------------------------------------------------------------------------ */
-//jQuery.noConflict();
+/* CONSTANTES */
 var d = document;
 var w = window;
 pm = {};
 
 
-/*  =UTILITIES
------------------------------------------------------------------------------ */
-var log = function(x) {
-    if (typeof console != 'undefined') {
-        console.log(x);
-    }
-};
-
-
-/*  =WINDOW.ONLOAD
------------------------------------------------------------------------------ */
+/* WINDOW.ONLOAD */
 $(d).ready(function(){
 
     pm.fixHeader();
@@ -62,8 +50,7 @@ pm.scrollTo = function () {
 /* FIX HEADER WHEN SCROLLING */
 pm.fixHeader = function() {
     // fix logo
-    $('#logo-berenicek a').scrollToFixed({
-        //marginTop:10,
+    $('#logo-berenicek').find('a').scrollToFixed({
         zIndex:2
     });
 
