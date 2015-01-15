@@ -11,7 +11,7 @@
         
         <div id="page" class="page-width">
             <div id="portfolio">
-                <!-- PROJECT -->
+                <!-- PROJECT - USINE À DESIGN -->
                 <div class="project" id="project-0">
                     <h2 class="title-1">
                         Directrice artistique web pendant 3 ans chez L’Usine à Design
@@ -25,7 +25,8 @@
                     </div>
                 </div>
 
-                <!-- PROJECT -->
+
+                <!-- PROJECT - BONNE BOX -->
                 <div class="project" id="project-1">
                     <h2 class="title-1">
                         Refonte de l’identité web de la bonne box en co-direction artistique
@@ -34,10 +35,23 @@
                         Colllaboration avec Virginie Barnay Duhamel. Réalisé en freelance.
                     </h3>
                     <div class="pic">
-                        <img src="img/data/projects/bonne-box.jpg" alt="uad">
+                        <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
                     </div>
                 </div>
 
+
+                <!-- PROJECT - NEW KIDS -->
+                <div class="project" id="project-2">
+                    <h2 class="title-1">
+                        Création d’une identité graphique pour new kidz STORIES
+                    </h2>
+                    <h3 class="title-2">
+                        Blog trendy & lifestyle en devenir pour jeunes enfants.
+                    </h3>
+                    <div class="pic">
+                        <img src="img/data/projects/new-kids.png" alt="New Kids">
+                    </div>
+                </div>
             </div>
 
 
