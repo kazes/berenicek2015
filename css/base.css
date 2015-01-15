@@ -320,10 +320,11 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: auto;
     max-width: 100%;
-    transition: transform 400ms ease-in;
+    transform: scale(1.05) rotate(0.1deg);
+    transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);/* ease out quart */
 }
 .mini-folio .pic:hover img {
-    transform: scale(1.05);
+    transform: scale(1) rotate(0.1deg);
 }
 .mini-folio .title {
     letter-spacing: 1.2px;
@@ -354,15 +355,16 @@ h1, h2, h3, h4, h5, h6 {
     content: "+";
     display: block;
     font-size: 30px;
-    line-height: 33px;
-    color: #a2a5a4;
+    line-height: 34px;
     text-align: center;
+    color: #a2a5a4;
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     transition: transform 200ms ease-in, color 200ms ease-in 100ms;
+    transform-origin: 50% 50%;
 }
 .mini-folio .more:hover:after {
     transform: rotate(90deg);
@@ -384,14 +386,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*transition:background-color 150ms ease-in, color 150ms ease-in;*/
 }
 .bt-contact a:hover {
     text-decoration: none;
-    /*background-color: lightpink;
-    color: #ffffff;*/
 }
 .bt-contact a .excla {
+    display: inline-block;
     transition:transform 300ms ease-in;
 }
 .bt-contact a:hover .excla {
