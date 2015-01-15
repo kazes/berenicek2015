@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 /* LOGO BERENICEK */
 #logo-berenicek {
     padding-top: 75px;
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 #logo-berenicek a {
     width: 277px;
