@@ -6,7 +6,7 @@
  * @return string
  */
 $section_id = 0;
-$buildSectionFooter = function($title, $array){
+function buildSectionFooter ($title, $array){
     // creates id
     global $section_id;
     $section_id++; // starts at 1
@@ -31,7 +31,7 @@ $buildSectionFooter = function($title, $array){
                     . $lis .
                 '</ul>
             </div>';
-};
+}
 
 
 // Portfolio
@@ -121,17 +121,17 @@ $followme_items = array(
 <div id="footer">
     <div class="inside page-width">
         <div class="column column-1">
-            <?php echo $buildSectionFooter("Portfolio", $portfolio_items); ?>
+            <?php echo buildSectionFooter("Portfolio", $portfolio_items); ?>
         </div>
         <div class="column column-2">
             <?php
-            echo $buildSectionFooter("CV & Contact", $cv_contact_items);
-            echo $buildSectionFooter("Drawings", $drawings_items);
+            echo buildSectionFooter("CV & Contact", $cv_contact_items);
+            echo buildSectionFooter("Drawings", $drawings_items);
             ?>
         </div>
         <div class="column column-3">
             <?php
-            echo $buildSectionFooter("Suivez-moi", $followme_items);
+            echo buildSectionFooter("Suivez-moi", $followme_items);
             ?>
         </div>
 

@@ -16,7 +16,7 @@ pm = {};
 
 /* WINDOW.ONLOAD */
 $(d).ready(function(){
-
+    console.log('document ready')
     pm.fixHeader();
     pm.scrollTo();
 

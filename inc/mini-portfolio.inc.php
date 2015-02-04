@@ -34,7 +34,7 @@ $mini_folios = array(
  * @param $infos {array}
  * @return string
  */
-$buildMiniFolio = function($infos) {
+function buildMiniFolio($infos) {
     // $infos is an array with 3 keys
     $title = $infos["title"];
     $desc = $infos["desc"];
@@ -61,14 +61,14 @@ $buildMiniFolio = function($infos) {
                     </span>
                 </a>
             </div>';
-};
+}
 ?>
 
 <div class="mini-folios-container">
     <?php
         // build all mini folios
         for ($i = 0; $i < count($mini_folios); $i++) {
-            echo $buildMiniFolio($mini_folios[$i]);
+            echo buildMiniFolio($mini_folios[$i]);
         }
     ?>
 </div>
