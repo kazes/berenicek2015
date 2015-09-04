@@ -1,0 +1,12 @@
+{
+  "name": "inte-bootstrap",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-autoprefixer": "^2.0.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}

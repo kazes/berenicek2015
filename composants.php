@@ -5,23 +5,19 @@
 
 <body>
     <div id="content">
-
-        <!-- HEADER -->
-        <?php include('inc/header.inc.php'); ?>
         
         <div id="page" class="page-width">
             <div id="portfolio">
                 <!-- PROJECT - USINE À DESIGN -->
                 <div class="project" id="project-0">
                     <h2 class="title-1">
-                        Directrice artistique web pendant 3 ans chez L’Usine à Design
+                        title 1
                     </h2>
                     <h3 class="title-2">
-                        Identité , Charte graphique & web, Ergonomie, Charte photo, Création &  gestion des
-                        auto-promotions, Management d’une équipe, Direction de projet.
+                        title 2
                     </h3>
-                    <div class="pic laptop">
-                        <img src="img/data/projects/uad.jpg" alt="uad">
+                    <div class="pic">
+                        <img src="http://dummyimage.com/650x550" alt="">
                     </div>
                 </div>
 
@@ -29,13 +25,13 @@
                 <!-- PROJECT - BONNE BOX -->
                 <div class="project" id="project-1">
                     <h2 class="title-1">
-                        Refonte de l’identité web de la bonne box en co-direction artistique
+                        title 1
                     </h2>
                     <h3 class="title-2">
-                        Colllaboration avec Virginie Barnay Duhamel. Réalisé en freelance.
+                        title 2
                     </h3>
                     <div class="pic">
-                        <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
+                        <img src="http://dummyimage.com/650x550" alt="">
                     </div>
                 </div>
 
@@ -43,13 +39,13 @@
                 <!-- PROJECT - NEW KIDS -->
                 <div class="project" id="project-2">
                     <h2 class="title-1">
-                        Création d’une identité graphique pour new kidz STORIES
+                        title 1
                     </h2>
                     <h3 class="title-2">
-                        Blog trendy & lifestyle en devenir pour jeunes enfants.
+                        title 2
                     </h3>
                     <div class="pic">
-                        <img src="img/data/projects/new-kids.png" alt="New Kids">
+                        <img src="http://dummyimage.com/650x550" alt="">
                     </div>
                 </div>
             </div>

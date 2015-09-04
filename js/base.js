@@ -16,8 +16,6 @@ pm = {};
 
 /* WINDOW.ONLOAD */
 $(d).ready(function(){
-    console.log('document ready')
-    pm.fixHeader();
     pm.scrollTo();
 
 });
@@ -46,20 +44,6 @@ pm.scrollTo = function () {
     });
 };
 
-
-/* FIX HEADER WHEN SCROLLING */
-pm.fixHeader = function() {
-    // fix logo
-    $('#logo-berenicek').find('a').scrollToFixed({
-        zIndex:2
-    });
-
-
-    // fix menu
-    $('#menu-container').scrollToFixed({
-        zIndex:1
-    });
-};
 
 
 
