@@ -17,7 +17,7 @@
             <ul class="menu left line">
                 <li class="item active">
                     <a href="#">
-                        Porfolio
+                        Portfolio
                     </a>
                 </li>
                 <li class="item">
