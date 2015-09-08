@@ -1,0 +1,41 @@
+
+/* RESET */
+* {
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+}
+input { height:auto; }
+a img, fieldset, form { border:0; }
+ins, abbr, acronym { text-decoration:none; border:0; font-style:normal; }
+a:hover ins, a:hover abbr, a:hover acronym { text-decoration:underline; }
+address { font-style:normal; }
+ul { list-style:none; }
+q:before, q:after { content:''; }
+small { font-size:0.9em; }
+input, select, textarea, button { font:1em Arial, Verdana, Helvetica, sans-serif; }
+input, textarea, select {/*not working with selects on IE6 IE7*/
+    box-sizing: border-box;
+}
+textarea { overflow:auto; }
+
+sup { vertical-align:text-top; }
+
+button {
+    width:auto;
+    overflow:visible;
+    border:0;
+    background:none;
+    cursor:pointer;
+}
+button::-moz-focus-inner { /*firefox extra padding removed*/
+    border: 0;
+    padding: 0;
+}
+input.submit {
+    width:auto !important;
+    height:auto !important;
+    cursor:pointer !important;
+    border:0 !important;
+    overflow:visible;
+}

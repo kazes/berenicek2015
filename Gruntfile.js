@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     // Load plugins
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-autoprefixer');
+    grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-compress');
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
@@ -48,10 +48,12 @@ module.exports = function (grunt) {
         },
 
         // Add vendor prefixed styles
-        autoprefixer: {
+        postcss: {
             options: {
-                browsers: ['> 1%'],
-                map: true
+                map: false,
+                processors: [
+                    require('autoprefixer-core')({browsers: ['last 1 version']})
+                ]
             },
             multiple_files: {
                 expand: true,
@@ -112,7 +114,7 @@ module.exports = function (grunt) {
             },
             css: {
                 files: [scssPath + '**/*.scss'],
-                tasks: ['sass:dev','autoprefixer'],
+                tasks: ['sass:dev','postcss'],
                 options: {
                     spawn: false
                 }
@@ -122,8 +124,8 @@ module.exports = function (grunt) {
 
     // Tasks
     grunt.registerTask('default', ['watch']);
-    grunt.registerTask('css', ['sass:dev','autoprefixer']);
-    grunt.registerTask('build', ['sass:dist','autoprefixer']);
+    grunt.registerTask('css', ['sass:dev','postcss']);
+    grunt.registerTask('build', ['sass:dist','postcss']);
     grunt.registerTask('zip', ['compress']);
     grunt.registerTask('js', ['jshint']);
 

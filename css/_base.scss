@@ -1,45 +1,15 @@
 /*------------------------------------------------------------------------------
-    CSS Document (http://www.w3.org/Style/CSS/)
-
-    project:    project name
-    created:    2012-01-04
-    author:     johdoe
-                
+    project:    berenicek.com (version 2015)
+    created:    2015
+    author:     Florian Boudot
 ----------------------------------------------------------------------------- */
 
-
-/*  =FRAMEWORK CSS (OOCSS and more...)
------------------------------------------------------------------------------ */
-@import "fw.css";
-
-
-/*  =PRINT
------------------------------------------------------------------------------ */
-@media print {
-
-}
-
-
-/* FONT KIRIMOMI SWASH */
+/* FONT - KIRIMOMI SWASH */
 /* http://neojaponisme.com/2011/06/27/catalog-heritage-the-kihachiro-typeface-family/ */
-@font-face {
-    src: url('../font/kirimomiswash-webfont.eot');
-    src: url('../font/kirimomiswash-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/kirimomiswash-webfont.woff') format('woff'),
-         url('../font/kirimomiswash-webfont.ttf') format('truetype'),
-         url('../font/kirimomiswash-webfont.svgz#KirimomiSwashItalic') format('svg'),
-         url('../font/kirimomiswash-webfont.svg#KirimomiSwashItalic') format('svg');
-    /*font-weight: normal;*/
-    /*font-style: italic;*/
-    font-family: 'KirimomiSwash';
+@include fontface(kirimomiswash);
 
-}
-/* RESET */
-* {
-    margin:0;
-    padding:0;
-    vertical-align:baseline;
-}
+
+/* STRUCTURE */
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -49,51 +19,6 @@ body {
     color:#575a5d;
     background:#fff;
 }
-input { height:auto; }
-a img, fieldset, form { border:0; }
-ins, abbr, acronym { text-decoration:none; border:0; font-style:normal; }
-a:hover ins, a:hover abbr, a:hover acronym { text-decoration:underline; }
-address { font-style:normal; }
-ul { list-style:none; }
-q:before, q:after { content:''; }
-small { font-size:0.9em; }
-input, select, textarea, button { font:1em Arial, Verdana, Helvetica, sans-serif; }
-input, textarea, select {/*not working with selects on IE6 IE7*/
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-textarea { overflow:auto; }
-
-sup { vertical-align:text-top; }
-
-hr,
-.accessibility { 
-    position:absolute;
-    left:-9999em;
-}
-
-button {
-    width:auto;
-    overflow:visible;
-    border:0;
-    background:none;
-    cursor:pointer;
-}
-button::-moz-focus-inner { /*firefox extra padding removed*/
-    border: 0;
-    padding: 0;
-}
-input.submit {
-    width:auto !important;
-    height:auto !important;
-    cursor:pointer !important;
-    border:0 !important;
-    overflow:visible;
-}
-
-
-/* STRUCTURE */
 #content {
     font-size: 14px;
 }
@@ -154,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 .title-4 {
-    font-family:'KirimomiSwash', Arial, Helvetica, sans-serif;
+    font-family:'kirimomiswash', Arial, Helvetica, sans-serif;
     font-size: 251px;
     font-weight: normal;
     letter-spacing: 1.7px;
@@ -162,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
     text-align: center;
 }
+
 
 /* HEADER */
 #header {
@@ -309,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0;
 }
 #project-1 .pic img {
-    box-shadow: 0px 3px 9.2px 0.8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 9.2px 0.8px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -347,10 +273,13 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: auto;
     max-width: 100%;
+    -webkit-transform: scale(1.05) rotate(0.1deg);
     transform: scale(1.05) rotate(0.1deg);
+    transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);/* ease out quart */
 }
 .mini-folio .pic:hover img {
+    -webkit-transform: scale(1) rotate(0.1deg);
     transform: scale(1) rotate(0.1deg);
 }
 .mini-folio .title {
@@ -390,10 +319,13 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: 0;
     bottom: 0;
+    transition: -webkit-transform 200ms ease-in, color 200ms ease-in 100ms;
     transition: transform 200ms ease-in, color 200ms ease-in 100ms;
+    -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
 .mini-folio .more:hover:after {
+    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     color: #4b4d50;
 }
@@ -419,9 +351,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bt-contact a .excla {
     display: inline-block;
+    transition:-webkit-transform 300ms ease-in;
     transition:transform 300ms ease-in;
 }
 .bt-contact a:hover .excla {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 

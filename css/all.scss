@@ -1,0 +1,16 @@
+/*------------------------------------------------------------------------------
+    CSS Document (http://www.w3.org/Style/CSS/)
+
+    project:    project name
+    created:    YYYY-MM-DD
+    author:     johdoe
+
+----------------------------------------------------------------------------- */
+
+@import 'helpers/variables';
+@import 'helpers/mixins';
+//@import 'vendors/fw'; // framework, OOCSS and more
+@import 'reset'; // reset tags
+@import '_base'; // main css styles
+//@import 'exemple'; // exemple of mixins usages REMOVE ON PROD
+@import 'libs/menu'; // exemple of mixins usages REMOVE ON PROD
