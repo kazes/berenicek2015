@@ -16,7 +16,7 @@
                     Refonte de l’identité web de la Bonne Box
                 </h1>
 
-                <img src="img/data/projects/logo-la-bonne-box.png" alt="La Bonne Box" class="logo-project">
+                <img src="img/data/projects/bonnebox/logo-bonne-box.png" alt="La Bonne Box" class="logo">
             </div>
 
             <!-- SECTION - STRATEGIE -->

@@ -391,56 +391,83 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* PAGE PROJECT */
-.page-project .intro .title-3 {
-    padding-bottom: 45px;
-}
-.logo-project {
-    display: block;
-    margin: 0 auto;
-}
-.page-project .section {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid $gray4;
+.page-project {
+    .intro .title-3 {
+        padding-bottom: 45px;
+    }
 
-    .inner {
-        padding-top: 147px;
-        overflow: hidden;
-        position: relative;
-        background-color: white; // default
+    .logo {
+        display: block;
+        margin: 0 auto 80px auto;
+    }
 
-        &:nth-of-type(odd) { // check browser compatibility
-            background-color: $gray2;
+    .challenge {
+        border-top:1px solid $gray4;
+        border-bottom:1px solid $gray4;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 24px;
+        padding-top: 13px;
 
-            & .keyword {
-                color: $gray0;
-            }
+        .title {
+            color: $gray6;
+            padding-bottom: 9px;
+        }
+
+        .text {
+            color: $gray8;
+            padding-bottom: 33px;
         }
     }
 
-    .keyword {
-        position: absolute;
-        z-index: 0;
-        top: -20px;
-        left: -100%;
-        text-align: center;
-        right: -100%;
-        white-space: nowrap;
-        line-height: 100%;
-    }
+    .section {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $gray4;
 
-    .description {
-        position: relative;
-        z-index: 2;
-    }
+        .inner {
+            padding-top: 147px;
+            overflow: hidden;
+            position: relative;
+            background-color: white; // default
 
-    img {
-        display: block;
-        position: relative;
-        z-index: 1;
-        margin: 0 auto 20px auto;
+            &:nth-of-type(odd) { // check browser compatibility
+                background-color: $gray2;
+
+                & .keyword {
+                    color: $gray0;
+                }
+            }
+        }
+
+        .keyword {
+            position: absolute;
+            z-index: 0;
+            top: -20px;
+            left: -100%;
+            text-align: center;
+            right: -100%;
+            white-space: nowrap;
+            line-height: 100%;
+        }
+
+        .description {
+            position: relative;
+            z-index: 2;
+        }
+
+        img {
+            display: block;
+            position: relative;
+            z-index: 1;
+            margin: 0 auto 20px auto;
+        }
     }
 }
+
+
+
 
 
 /* FOOTER */
