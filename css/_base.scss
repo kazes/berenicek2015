@@ -10,6 +10,7 @@ $blue: #b8ebef;
 $yellow: #fff6b0;
 $pink: #f9c5d8;
 
+$gray0: #fbfbfb;
 $gray1: #f7f7f7;
 $gray2: #f3f3f3;
 $gray3: #ebebeb;
@@ -110,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER */
 #header {
     position: fixed;
-    z-index: 2;
+    z-index: 10;
     left:0;
     right:0;
     top: 0;
@@ -398,15 +399,49 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 .page-project .section {
-    position: relative;
-    background-color: gray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $gray4;
+
+    .inner {
+        padding-top: 147px;
+        overflow: hidden;
+        position: relative;
+        background-color: white; // default
+
+        &:nth-of-type(odd) { // check browser compatibility
+            background-color: $gray2;
+
+            & .keyword {
+                color: $gray0;
+            }
+        }
+    }
+
+    .keyword {
+        position: absolute;
+        z-index: 0;
+        top: -20px;
+        left: -100%;
+        text-align: center;
+        right: -100%;
+        white-space: nowrap;
+        line-height: 100%;
+    }
+
+    .description {
+        position: relative;
+        z-index: 2;
+    }
+
+    img {
+        display: block;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto 20px auto;
+    }
 }
-.page-project .title-4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+
 
 /* FOOTER */
 #footer {
