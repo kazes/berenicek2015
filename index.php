@@ -5,6 +5,7 @@
 
 <body>
     <div id="content">
+        <?php $page = 'home'; ?>
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
@@ -21,7 +22,9 @@
                         auto-promotions, Management d’une équipe, Direction de projet.
                     </h3>
                     <div class="pic laptop">
-                        <img src="img/data/projects/uad.jpg" alt="uad">
+                        <a href="projet-usine-a-design.php" title="voir le projet">
+                            <img src="img/data/projects/uad.jpg" alt="uad">
+                        </a>
                     </div>
                 </div>
 
@@ -60,7 +63,7 @@
 
             <!-- CONTACT -->
             <p class="bt-contact">
-                <a href="#">
+                <a href="mailto:berenice.krzyzaniak@gmail.com" title="un mailto temporaire en attendant la page contact !">
                     contactez-moi, c’est sympa <span class="excla">!</span>
                 </a>
             </p>

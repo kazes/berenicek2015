@@ -5,6 +5,7 @@
 
 <body>
     <div id="content">
+        <?php $page = 'project-uad'; ?>
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
