@@ -85,7 +85,8 @@
             <?php echo buildSsectionKeyword(
                 "ergonomie",
                 "Accompagnement du visiteur dans sa recherche et dans la découverte de la personnalisation.",
-                array("img/data/projects/uad/ergonomie.png")
+                array("img/data/projects/uad/ergonomie.png"),
+                'bg-dark'
             ); ?>
 
             <!-- MARKETING -->
@@ -104,7 +105,8 @@
                 "Conception de planches de tendance pour les nouvelles collections avec la directrice de collection et d’une charte photo selon les différentes typologies de produit.",
                 array(
                     "img/data/projects/uad/trends.png"
-                )
+                ),
+                'bg-dark'
             ); ?>
 
 

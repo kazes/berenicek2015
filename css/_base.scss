@@ -434,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
             position: relative;
             background-color: white; // default
 
-            &:nth-of-type(odd) { // check browser compatibility
+            &.bg-dark { // check browser compatibility
                 background-color: $gray2;
 
                 & .keyword {
