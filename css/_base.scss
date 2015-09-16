@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family:'kirimomiswash', Arial, Helvetica, sans-serif;
     font-size: 251px;
     font-weight: normal;
-    letter-spacing: 1.7px;
+    letter-spacing: -1px;
     color: $gray2;
     font-style: italic;
     text-align: center;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER - LOGO BERENICEK */
 #logo-berenicek {
     padding-top: 75px;
-    visibility: hidden; // temp
+    //visibility: hidden; // temp
 
     a {
         display: block;
@@ -361,7 +361,8 @@ h1, h2, h3, h4, h5, h6 {
 /* BUTTON CONTACTEZ-MOI */
 .bt-contact {
     text-align: center;
-    padding-bottom: 58px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 
     a {
         background-color: $yellow;
@@ -404,7 +405,6 @@ h1, h2, h3, h4, h5, h6 {
     .challenge {
         border-top:1px solid $gray4;
         border-bottom:1px solid $gray4;
-        margin-bottom: 20px;
         line-height: 24px;
         padding-top: 13px;
 
@@ -425,8 +425,8 @@ h1, h2, h3, h4, h5, h6 {
 
     .section {
         margin-bottom: 20px;
-        padding-bottom: 20px;
         border-bottom: 1px solid $gray4;
+        padding-bottom: 20px;
 
         .inner {
             padding-top: 147px;
@@ -464,6 +464,10 @@ h1, h2, h3, h4, h5, h6 {
             position: relative;
             z-index: 1;
             margin: 0 auto 20px auto;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }
