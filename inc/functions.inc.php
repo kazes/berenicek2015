@@ -6,7 +6,7 @@
  * @param $alternate_bg
  * @return string
  */
-function buildSsectionKeyword($keyword = 'keyword', $title = 'title', $img_src = array(''), $alternate_bg){
+function buildSsectionKeyword($keyword = 'keyword', $title = 'title', $img_src = array(''), $alternate_bg = ''){
     // get images urls
     $images = '';
     for ($i = 0; $i < count($img_src); $i++) {
@@ -14,7 +14,7 @@ function buildSsectionKeyword($keyword = 'keyword', $title = 'title', $img_src =
     }
 
     // build html with these vars
-    $html = <<<"CONTENT"
+    $html = <<<CONTENT
 
     <div class="section">
         <div class="inner {$alternate_bg}">
