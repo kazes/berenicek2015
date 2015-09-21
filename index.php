@@ -38,7 +38,9 @@
                         Colllaboration avec Virginie Barnay Duhamel. Réalisé en freelance.
                     </h3>
                     <div class="pic">
-                        <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
+                        <a href="projet-la-bonne-box.php" title="voir le projet">
+                            <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
+                        </a>
                     </div>
                 </div>
 

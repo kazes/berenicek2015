@@ -9,8 +9,19 @@
 function buildSsectionKeyword($keyword = 'keyword', $title = 'title', $img_src = array(''), $alternate_bg = ''){
     // get images urls
     $images = '';
+    $style = '';
+
     for ($i = 0; $i < count($img_src); $i++) {
-        $images .= '<img src="'.$img_src[$i].'" alt="'.$title.'">';
+        $cur_img_src = $img_src[$i];
+
+        // optional margin-bottom with "xxx.jpg+40" in path
+        if(strpos($cur_img_src, '+')){
+            $exploded = explode("+", $cur_img_src);
+            $margin_bottom = $exploded[1];
+            $cur_img_src = $exploded[0];
+            $style = 'style="margin-bottom:'.$margin_bottom.'px;"';
+        }
+        $images .= '<img src="'. $cur_img_src .'" alt="'.$title.'" '.$style.'>';
     }
 
     // build html with these vars

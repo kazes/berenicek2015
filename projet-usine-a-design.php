@@ -20,6 +20,7 @@
                 <img src="img/data/projects/uad/logo-uad.png" alt="L'usine à design" class="logo">
             </div>
 
+            <!-- CHALLENGE -->
             <div class="challenge">
                 <p class="title title-3">
                     <strong>Le défi</strong>
