@@ -54,7 +54,9 @@
                         Blog trendy & lifestyle en devenir pour jeunes enfants.
                     </h3>
                     <div class="pic">
-                        <img src="img/data/projects/new-kids.png" alt="New Kids">
+                        <a href="projet-new-kidz.php">
+                            <img src="img/data/projects/new-kids.png" alt="New Kids">
+                        </a>
                     </div>
                 </div>
             </div>
