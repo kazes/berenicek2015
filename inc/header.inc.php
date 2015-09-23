@@ -5,6 +5,7 @@
         <div class="triangle" id="triangle-blue"></div>
 
         <?php $is_home = (isset($page) && $page === 'home'); ?>
+        <?php $is_contact = (isset($page) && $page === 'contact'); ?>
 
         <!-- LOGO -->
         <h1 id="logo-berenicek">
@@ -26,8 +27,8 @@
                         Portfolio
                     </a>
                 </li>
-                <li class="item">
-                    <a href="#">
+                <li class="item <?php if($is_contact){ ?>active<?php } ?>">
+                    <a href="contact.php">
                         CV & contact
                     </a>
                 </li>
