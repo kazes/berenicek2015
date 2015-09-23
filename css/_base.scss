@@ -235,21 +235,36 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     position: relative;
 
-/*    .hover-layer {
-        transition: background 250ms linear;
+    .hover-layer {
+        transition: opacity 350ms cubic-bezier(0, 0, 0.2, 1);
         position: absolute;
         left: 0;
         right: 0;
         top: 0;
-        bottom: 100%;
+        bottom: 0;
+        overflow: hidden;
+        opacity: 0;
+
+        .bt-contact {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            padding: 0;
+            opacity: 0;
+            transition: opacity 400ms cubic-bezier(0, 0, 0.2, 1);
+        }
     }
 
     &:hover {
-        .hover-layer {
-            bottom: 0;
-            background: black;
+        .bt-contact {
+            opacity: 1;
         }
-    }*/
+        .hover-layer {
+            opacity: 1;
+            background: rgba($gray4, 0.5);
+        }
+    }
 }
 
 .project .pic {

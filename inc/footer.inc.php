@@ -38,24 +38,24 @@ function buildSectionFooter ($title, $array){
 $portfolio_items = array(
     array(
         "L’Usine à Design",
-        "http://www.usineadesign.com"
+        "projet-usine-a-design.php"
     ),
     array(
         "La Bonne Box",
-        "http://www.bonnebox.com"
+        "projet-la-bonne-box.php"
     ),
     array(
         "New Kidz Stories",
-        "http://www.newkidzstories.com"
-    ),
+        "projet-new-kidz.php"
+    ),/*
     array(
         "Émilie & Charles",
         "http://www.emilieetcharles.com"
-    ),
+    ),*/
     array(
         "Micromix",
-        "http://www.micromix.fr"
-    ),
+        "projet-micromix.php"
+    ),/*
     array(
         "Fanny & Charles",
         "http://www.fannyetcharles.com"
@@ -63,10 +63,10 @@ $portfolio_items = array(
     array(
         "Babaz",
         "http://www.babaz.com"
-    ),
+    ),*/
     array(
         "Brandalley",
-        "http://www.brandalley.com"
+        "projet-brandalley.php"
     )
 );
 
@@ -75,11 +75,11 @@ $portfolio_items = array(
 $cv_contact_items = array(
     array(
         "Télécharger mon CV en pdf",
-        "/pdf/berenice_krzyzaniak_cv.pdf"
+        "pdf/berenice-krzyzaniak-boudot-cv.pdf"
     ),
     array(
         "Contactez-moi",
-        "/contact"
+        "contact.php"
     )
 );
 
@@ -126,7 +126,8 @@ $followme_items = array(
         <div class="column column-2">
             <?php
             echo buildSectionFooter("CV & Contact", $cv_contact_items);
-            echo buildSectionFooter("Drawings", $drawings_items);
+            //echo buildSectionFooter("Drawings", $drawings_items);
+            echo buildSectionFooter("", array());
             ?>
         </div>
         <div class="column column-3">

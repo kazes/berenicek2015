@@ -5,6 +5,7 @@
         <div class="triangle" id="triangle-blue"></div>
 
         <?php $is_home = (isset($page) && $page === 'home'); ?>
+        <?php $is_portfolio = (isset($page) && $page === 'portfolio'); ?>
         <?php $is_contact = (isset($page) && $page === 'contact'); ?>
 
         <!-- LOGO -->
@@ -22,8 +23,8 @@
         <!-- MENU -->
         <div id="menu-container" class="line">
             <ul class="menu left line">
-                <li class="item <?php if($is_home){ ?>active<?php } ?>">
-                    <a href="index.php">
+                <li class="item <?php if($is_portfolio){ ?>active<?php } ?>">
+                    <a href="projet-usine-a-design.php">
                         Portfolio
                     </a>
                 </li>

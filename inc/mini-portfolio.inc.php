@@ -10,7 +10,7 @@ $mini_folios = array(
         "title" => "Micromix",
         "desc"  => "Graphisme pour les  flyers des soirées du site micromix.fr.",
         "url"   => "projet-micromix.php"
-    ),
+    ),/*
     array(
         "title" => "Émilie & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
@@ -20,12 +20,12 @@ $mini_folios = array(
         "title" => "Babaz",
         "desc"  => "Logo en co-direction artistique pour un site d’habits pour enfants.",
         "url"   => "projet-babaz.php"
-    ),
+    ),*/
     array(
         "title" => "Brandalley",
         "desc"  => "Création emailing & auto-promotion durant 1 an (2007).",
         "url"   => "projet-brandalley.php"
-    ),
+    ),/*
     array(
         "title" => "Fanny & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
@@ -35,7 +35,7 @@ $mini_folios = array(
         "title" => "Chez ta mère",
         "desc"  => "Création de visuels pour un projet de salon de thé.",
         "url"   => "projet-chez-ta-mere.php"
-    )
+    )*/
 );
 
 
