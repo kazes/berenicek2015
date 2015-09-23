@@ -401,6 +401,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom:1px solid $gray4;
     line-height: 24px;
     padding-top: 13px;
+    margin-bottom: 20px;
 
     .title {
         color: $gray6;
@@ -440,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
             position: relative;
             background-color: white; // default
 
-            &.no-top-padding {
+            &.no-padding-top {
                 padding-top: 0;
             }
 
@@ -503,6 +504,7 @@ h1, h2, h3, h4, h5, h6 {
         list-style: none;
         overflow: hidden;
         display: table;
+        width: 100%;
         padding-bottom: 20px;
 
         li {

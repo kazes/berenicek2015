@@ -52,7 +52,7 @@
                 "", // keyword
                 "", // title
                 array("img/data/projects/newkidz/cartes-de-visite.jpg"),
-                'no-top-padding'
+                'no-padding-top'
             ); ?>
 
 

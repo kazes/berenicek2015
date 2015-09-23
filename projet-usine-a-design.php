@@ -45,39 +45,39 @@
                 <div class="title title-3">Mes démarches</div>
                 <ol>
                     <li>
-                        Définir une identité propre à L’Usine à Design
-                        et déclinable au gré des saisons et des tendances
-                        grâce à la définition de chartes pour les packshots,
+                        Définir une identité propre à L’Usine à Design<br>
+                        et déclinable au gré des saisons et des tendances<br>
+                        grâce à la définition de chartes pour les packshots,<br>
                         les photos d’ambiance et le ton rédactionnel.
                     </li>
                     <li>
-                        Permettre au visiteur de personnaliser son meuble
-                        (matière, couleur, etc.) en réfléchissant à
-                        un outil de personnalisation plus ergonomique et
+                        Permettre au visiteur de personnaliser son meuble<br>
+                        (matière, couleur, etc.) en réfléchissant à<br>
+                        un outil de personnalisation plus ergonomique et<br>
                         adapté aux différentes typologies de produit.
                     </li>
                     <li>
-                        Créer un lien de confiance avec le visiteur
-                        via un tunnel d’achat clair (challenge de la livraison)
-                        et de newsletters adaptées grâce à des AB testings
+                        Créer un lien de confiance avec le visiteur<br>
+                        via un tunnel d’achat clair (challenge de la livraison)<br>
+                        et de newsletters adaptées grâce à des AB testings<br>
                         réalisés avec l’équipe marketing.
                     </li>
                     <li>
-                        Refondre le logo de L’Usine à Design
-                        pour proposer au public une identité visuelle
-                        plus en accord avec l’univers de la maison
+                        Refondre le logo de L’Usine à Design<br>
+                        pour proposer au public une identité visuelle<br>
+                        plus en accord avec l’univers de la maison<br>
                         et la plateforme de marque.
                     </li>
                     <li>
-                        Donner à l’équipe graphique une volonté d’’excellence
-                        dans la présentation des produits grâce à une optimisation
-                        du rendu Adobe S7 et dans l’esthétique des
+                        Donner à l’équipe graphique une volonté d’’excellence<br>
+                        dans la présentation des produits grâce à une optimisation<br>
+                        du rendu Adobe S7 et dans l’esthétique des<br>
                         newsletters envoyées aux abonnés.
                     </li>
                     <li>
-                        Accompagner les fondateurs dans un projet
-                        protéiforme, avec la création d’une plateforme de vote
-                        pour l’édition de jeunes designers et d’un magazine
+                        Accompagner les fondateurs dans un projet<br>
+                        protéiforme, avec la création d’une plateforme de vote<br>
+                        pour l’édition de jeunes designers et d’un magazine<br>
                         sur l’histoire et les tendances du design.
                     </li>
                 </ol>
