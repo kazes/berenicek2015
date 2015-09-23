@@ -108,12 +108,12 @@ $drawings_items = array(
 // Suivez-moi
 $followme_items = array(
     array(
-        "Pinterest",
+        "pinterest",
         "http://www.pinterest.com/berenicek"
     ),
     array(
-        "facebook",
-        "http://www.facebook.com/berenicek"
+        "instagram",
+        "http://instagram.com/sweetberenicek/"
     )
 );
 ?>
@@ -134,7 +134,6 @@ $followme_items = array(
             echo buildSectionFooter("Suivez-moi", $followme_items);
             ?>
         </div>
-
 
         <p id="credits">
             Copyright bérénice krzyzaniak -
