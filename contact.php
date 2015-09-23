@@ -33,7 +33,7 @@
 
             <!-- CV -->
             <p class="cv title-3">
-                <a href="pdf/berenice_krzyzaniak_cv.pdf" target="_blank">
+                <a href="pdf/berenice-krzyzaniak-boudot-cv.pdf" target="_blank">
                     Voilà mon cv
                 </a>
             </p>
