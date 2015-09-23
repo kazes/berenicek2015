@@ -5,7 +5,7 @@
 
 <body>
     <div id="content">
-        <?php $page = 'project-bonne-box'; ?>
+        <?php $page = 'project-new-kidz'; ?>
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
