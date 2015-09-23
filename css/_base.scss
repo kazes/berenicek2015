@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: 1.7px;
+    letter-spacing: 1.6px;
     color: $gray7;
     text-align: center;
 }
@@ -395,6 +395,29 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+/* CHALLENGE */
+.challenge {
+    border-top:1px solid $gray4;
+    border-bottom:1px solid $gray4;
+    line-height: 24px;
+    padding-top: 13px;
+
+    .title {
+        color: $gray6;
+        padding-bottom: 9px;
+
+        strong {
+            font-weight: normal;
+        }
+    }
+
+    .text {
+        color: $gray8;
+        padding-bottom: 33px;
+    }
+}
+
+
 /* PAGE PROJECT */
 .page-project {
     .intro .title {
@@ -404,27 +427,6 @@ h1, h2, h3, h4, h5, h6 {
     .logo {
         display: block;
         margin: 0 auto 80px auto;
-    }
-
-    .challenge {
-        border-top:1px solid $gray4;
-        border-bottom:1px solid $gray4;
-        line-height: 24px;
-        padding-top: 13px;
-
-        .title {
-            color: $gray6;
-            padding-bottom: 9px;
-
-            strong {
-                font-weight: normal;
-            }
-        }
-
-        .text {
-            color: $gray8;
-            padding-bottom: 33px;
-        }
     }
 
     .section {
@@ -480,6 +482,8 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
+
+
 /* MES DÉMARCHES */
 .process {
     color: $gray6;
@@ -528,7 +532,56 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* CV */
+.cv {
+    padding-bottom: 120px;
+    a {
+        position: relative;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+        &:after {
+            content:"";
+            position: absolute;
+            left: 50%;
+            margin-left: -20px;
+            bottom: -50px;
+            width: 40px;
+            height: 40px;
+            display: block;
+            background: url(../img/skin/sprites-social.png) 0 -248px no-repeat;
+        }
+    }
+}
 
+/* CONTACT */
+.page-contact {
+    .photo {
+        padding-bottom: 30px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .intro {
+        padding-bottom: 35px;
+    }
+    .title-social {
+        border-top:1px solid $gray4;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .list-social {
+        text-align: center;
+        padding-bottom: 75px;
+    }
+    .social {
+        margin: 0 8px;
+        display: inline-block;
+    }
+}
 
 
 /* FOOTER */
@@ -580,10 +633,37 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* SOCIAL */
+.social a {// todo refactor social buttons (keep this code)
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -9999px;
+    background-image: url(../img/skin/sprites-social.png);
+    background-repeat: no-repeat;
+}
+/* SOCIAL - LINKEDIN */
+.social.linkedin a {
+    background-position: 0 -124px;
+}
+/* SOCIAL - PINTEREST */
+.social.pinterest a {
+    background-position: 0 0;
+}
+/* SOCIAL - FACEBOOK */
+.social.facebook a {
+    background-position: 0 -62px;
+}
+/* SOCIAL - INSTAGRAM */
+.social.instagram a {
+    background-position: 0 -186px;
+}
 
 /* SECTION FOLLOW ME */
 #ft-section-4 {
-    .item a {
+    .item a { // todo refactor social buttons (remove this code)
         display: block;
         width: 62px;
         height: 62px;
@@ -598,9 +678,9 @@ h1, h2, h3, h4, h5, h6 {
     .item-0 a {
         background-position: 0 0;
     }
-    /* FACEBOOK */
+    /* INSTAGRAM */
     .item-1 a {
-        background-position: 0 -62px;
+        background-position: 0 -186px;
     }
 }
 
