@@ -233,7 +233,25 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 45px;
     margin-bottom: 2px;
     overflow: hidden;
+    position: relative;
+
+/*    .hover-layer {
+        transition: background 250ms linear;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 100%;
+    }
+
+    &:hover {
+        .hover-layer {
+            bottom: 0;
+            background: black;
+        }
+    }*/
 }
+
 .project .pic {
     padding-bottom: 70px;
 
@@ -512,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* MES DÉMARCHES */
+/* MES Dï¿½MARCHES */
 .process {
     color: $gray6;
     text-align: center;

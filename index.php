@@ -46,6 +46,9 @@
 
                 <!-- PROJECT - CONSTANCE FOURNIER -->
                 <div class="project" id="project-2">
+                    <div class="hover-layer">
+                        coucou
+                    </div>
                     <h2 class="title-1">
                         Création d’une nouvelle identité web pour constance fournier
                     </h2>
