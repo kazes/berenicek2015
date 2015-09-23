@@ -18,12 +18,11 @@
                         Directrice artistique web pendant 3 ans chez L’Usine à Design
                     </h2>
                     <h3 class="title-2">
-                        Identité , Charte graphique & web, Ergonomie, Charte photo, Création &  gestion des
-                        auto-promotions, Management d’une équipe, Direction de projet.
+                        Identité, charte graphique & web, ergonomie, charte photo, création & gestion des auto-promotions, management d’une équipe, direction de projet.
                     </h3>
                     <div class="pic laptop">
                         <a href="projet-usine-a-design.php" title="voir le projet">
-                            <img src="img/data/projects/uad.jpg" alt="uad">
+                            <img src="img/data/projects/uad/home-preview.png" alt="L’Usine à Design">
                         </a>
                     </div>
                 </div>
@@ -32,10 +31,10 @@
                 <!-- PROJECT - BONNE BOX -->
                 <div class="project" id="project-1">
                     <h2 class="title-1">
-                        Refonte de l’identité web de la bonne box en co-direction artistique
+                        Refonte de l’identité web de la bonne box
                     </h2>
                     <h3 class="title-2">
-                        Colllaboration avec Virginie Barnay Duhamel. Réalisé en freelance.
+                        Réalisé en freelance en collaboration avec Virginie Barnay Duhamel.
                     </h3>
                     <div class="pic">
                         <a href="projet-la-bonne-box.php" title="voir le projet">
@@ -45,17 +44,17 @@
                 </div>
 
 
-                <!-- PROJECT - NEW KIDS -->
+                <!-- PROJECT - CONSTANCE FOURNIER -->
                 <div class="project" id="project-2">
                     <h2 class="title-1">
-                        Création d’une identité graphique pour new kidz STORIES
+                        Création d’une nouvelle identité web pour constance fournier
                     </h2>
                     <h3 class="title-2">
-                        Blog trendy & lifestyle en devenir pour jeunes enfants.
+                        Site vitrine de la créatrice de robe de mariées sur-mesure.
                     </h3>
                     <div class="pic">
-                        <a href="projet-new-kidz.php">
-                            <img src="img/data/projects/new-kids.png" alt="New Kids">
+                        <a href="projet-constance-fournier.php">
+                            <img src="img/data/projects/constancefournier/home-preview.png" alt="Constance Fournier">
                         </a>
                     </div>
                 </div>
@@ -68,7 +67,7 @@
             <!-- CONTACT -->
             <p class="bt-contact">
                 <a href="mailto:berenice.krzyzaniak@gmail.com" title="un mailto temporaire en attendant la page contact !">
-                    contactez-moi, c’est sympa <span class="excla">!</span>
+                    Contactez-moi, c’est sympa <span class="excla">!</span>
                 </a>
             </p>
         </div>

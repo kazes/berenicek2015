@@ -288,7 +288,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 
+    &:after {
+        content: '';
+        display: block;
+        background: url(../img/skin/mini-folio-shadow.png) 0 0 no-repeat;
+        width: 220px;
+        height: 12px;
+        position: absolute;
+        bottom: -13px;
+        left: -1px;
+    }
     &:nth-child(4) {
         margin-right: 0;
     }
