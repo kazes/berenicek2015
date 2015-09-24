@@ -113,11 +113,8 @@
 
 
             <!-- FOOTER - CONTACT -->
-            <p class="bt-contact">
-                <a href="#">
-                    Racontez-moi votre projet <span class="excla">!</span>
-                </a>
-            </p>
+            <?php include('inc/button-contact.inc.php'); ?>
+
         </div>
 
         <!-- FOOTER -->
