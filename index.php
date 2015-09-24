@@ -14,13 +14,11 @@
             <div id="portfolio">
                 <!-- PROJECT - USINE À DESIGN -->
                 <div class="project" id="project-0">
-                    <div class="hover-layer">
-                        <p class="bt-contact">
-                            <a href="projet-usine-a-design.php">
-                                voir le projet
-                            </a>
-                        </p>
-                    </div>
+                    <p class="bt-contact">
+                        <a href="projet-usine-a-design.php">
+                            voir le projet
+                        </a>
+                    </p>
                     <h2 class="title-1">
                         Directrice artistique web pendant 3 ans chez L’Usine à Design
                     </h2>
@@ -35,13 +33,11 @@
 
                 <!-- PROJECT - BONNE BOX -->
                 <div class="project" id="project-1">
-                    <div class="hover-layer">
-                        <p class="bt-contact">
-                            <a href="projet-la-bonne-box.php">
-                                voir le projet
-                            </a>
-                        </p>
-                    </div>
+                    <p class="bt-contact">
+                        <a href="projet-la-bonne-box.php">
+                            voir le projet
+                        </a>
+                    </p>
                     <h2 class="title-1">
                         Refonte de l’identité web de la bonne box
                     </h2>
@@ -56,13 +52,11 @@
 
                 <!-- PROJECT - CONSTANCE FOURNIER -->
                 <div class="project" id="project-2">
-                    <div class="hover-layer">
-                        <p class="bt-contact">
-                            <a href="projet-constance-fournier.php">
-                                voir le projet
-                            </a>
-                        </p>
-                    </div>
+                    <p class="bt-contact">
+                        <a href="projet-constance-fournier.php">
+                            voir le projet
+                        </a>
+                    </p>
                     <h2 class="title-1">
                         Création d’une nouvelle identité web pour constance fournier
                     </h2>
