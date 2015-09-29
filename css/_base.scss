@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* HEADER */
 #header {
+    pointer-events: none;
     position: fixed;
     z-index: 10;
     left:0;
@@ -152,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     //visibility: hidden; // temp
 
     a {
+        pointer-events: auto;
         display: block;
         width: 277px;
         margin:0 auto 10px auto;
@@ -176,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0 20px 0 0;
         a {
             position: relative;
+            pointer-events: auto;
             display: block;
             padding: 9px 0;
             min-width: 124px;
