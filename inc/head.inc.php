@@ -6,7 +6,7 @@
 <!-- custom CSS -->
 <link rel="stylesheet" href="css/all.css" type="text/css">
 
-
+<link href="img/favicon1.png" rel="icon">
 <title>Bérénice K. - Directrice Artistique E-Commerce</title>
 <script>
     var hasJS = function() {
