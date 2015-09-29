@@ -30,7 +30,7 @@ $black: #232425;
 /* STRUCTURE */
 body {
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size:62.5%; /* :INFO:1em = 10px */
     height:100%;
     line-height: 20px;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 30px;
 }
 .title-3 {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1.6px;
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER - LOGO BERENICEK */
 #logo-berenicek {
     padding-top: 75px;
-    //visibility: hidden; // temp
+    visibility: hidden; // temp
 
     a {
         display: block;
@@ -567,6 +567,7 @@ h1, h2, h3, h4, h5, h6 {
         display: table;
         width: 100%;
         padding-bottom: 20px;
+        font-weight: 400;
 
         li {
             padding: 80px 0 15px 0;
@@ -668,6 +669,7 @@ h1, h2, h3, h4, h5, h6 {
             padding-bottom: 23px;
         }
         .item {
+            font-weight: 400;
             font-family: Georgia, Arial, Helvetica, sans-serif;
             font-style: italic;
             text-align: center;
@@ -751,6 +753,7 @@ h1, h2, h3, h4, h5, h6 {
 /* CREDITS */
 #credits {
     clear: both;
+    font-weight: 400;
     text-align: center;
     font-family: Georgia, Arial, Helvetica, sans-serif;
     font-size: 11px;
