@@ -110,6 +110,14 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
     text-align: center;
 }
+.title-5 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: $gray6;
+    text-align: center;
+}
 
 
 /* HEADER */
@@ -470,8 +478,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* PAGE PROJECT */
 .page-project {
-    .intro .title {
-        padding-bottom: 45px;
+    .intro {
+        .title {
+            padding-bottom: 45px;
+        }
+        &.border {
+            border-bottom: 1px solid $gray4;
+            margin-bottom: 14px;
+
+            .title {
+                padding-bottom: 35px;
+            }
+        }
     }
 
     .logo {

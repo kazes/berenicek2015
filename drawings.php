@@ -12,13 +12,14 @@
         
         <div id="page" class="page-width page-project">
             <!-- INTRO -->
-            <div class="intro">
+            <div class="intro border">
                 <h1 class="title title-3">
                     drawings
                 </h1>
             </div>
 
-            <h2 class="title-3">
+
+            <h2 class="title-5">
                 2013
             </h2>
 
@@ -29,7 +30,7 @@
                 </div>
             </div>
 
-            <h2 class="title-3">
+            <h2 class="title-5">
                 2012
             </h2>
 
