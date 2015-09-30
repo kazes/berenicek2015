@@ -15,7 +15,7 @@
                 <!-- PROJECT - USINE À DESIGN -->
                 <div class="project" id="project-0">
                     <p class="bt-contact">
-                        <a href="projet-usine-a-design.php">
+                        <a href="projet-usine-a-design">
                             voir le projet
                         </a>
                     </p>
@@ -34,7 +34,7 @@
                 <!-- PROJECT - BONNE BOX -->
                 <div class="project" id="project-1">
                     <p class="bt-contact">
-                        <a href="projet-la-bonne-box.php">
+                        <a href="projet-la-bonne-box">
                             voir le projet
                         </a>
                     </p>
@@ -53,7 +53,7 @@
                 <!-- PROJECT - CONSTANCE FOURNIER -->
                 <div class="project" id="project-2">
                     <p class="bt-contact">
-                        <a href="projet-constance-fournier.php">
+                        <a href="projet-constance-fournier">
                             voir le projet
                         </a>
                     </p>

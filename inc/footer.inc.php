@@ -38,15 +38,15 @@ function buildSectionFooter ($title, $array){
 $portfolio_items = array(
     array(
         "L’Usine à Design",
-        "projet-usine-a-design.php"
+        "projet-usine-a-design"
     ),
     array(
         "La Bonne Box",
-        "projet-la-bonne-box.php"
+        "projet-la-bonne-box"
     ),
     array(
         "New Kidz Stories",
-        "projet-new-kidz.php"
+        "projet-new-kidz"
     ),/*
     array(
         "Émilie & Charles",
@@ -54,7 +54,7 @@ $portfolio_items = array(
     ),*/
     array(
         "Micromix",
-        "projet-micromix.php"
+        "projet-micromix"
     ),/*
     array(
         "Fanny & Charles",
@@ -66,7 +66,7 @@ $portfolio_items = array(
     ),*/
     array(
         "Brandalley",
-        "projet-brandalley.php"
+        "projet-brandalley"
     )
 );
 
@@ -79,7 +79,7 @@ $cv_contact_items = array(
     ),
     array(
         "Contactez-moi",
-        "contact.php"
+        "contact"
     )
 );
 

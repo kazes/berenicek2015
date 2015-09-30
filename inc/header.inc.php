@@ -14,7 +14,7 @@
             <?php if($is_home) { ?>
                 <a href="#content" class="JS_scroll-to" title="haut de page ↑">
             <?php } else { ?>
-                <a href="index.php" title="accueil">
+                <a href="/" title="accueil">
             <?php }  ?>
                 <img src="img/data/berenicek-logo.png" alt="Bérénice K. Directrice Artistique e-commerce">
             </a>
@@ -25,12 +25,12 @@
         <div id="menu-container" class="line">
             <ul class="menu left line">
                 <li class="item <?php if($is_portfolio){ ?>active<?php } ?>">
-                    <a href="projet-usine-a-design.php">
+                    <a href="projet-usine-a-design">
                         Portfolio
                     </a>
                 </li>
                 <li class="item <?php if($is_contact){ ?>active<?php } ?>">
-                    <a href="contact.php">
+                    <a href="contact">
                         CV & contact
                     </a>
                 </li>
@@ -38,7 +38,7 @@
 
             <ul class="menu right line">
                 <li class="item <?php if($is_drawings){ ?>active<?php } ?>">
-                    <a href="drawings.php">
+                    <a href="drawings">
                         Drawings
                     </a>
                 </li>

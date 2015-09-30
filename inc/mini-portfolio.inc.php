@@ -4,12 +4,12 @@ $mini_folios = array(
     array(
         "title" => "New kidz stories",
         "desc"  => "Identité graphique d’un blog en devenir pour jeunes enfants et mamans.",
-        "url"   => "projet-new-kidz.php"
+        "url"   => "projet-new-kidz"
     ),
     array(
         "title" => "Micromix",
         "desc"  => "Graphisme pour les  flyers des soirées du site micromix.fr.",
-        "url"   => "projet-micromix.php"
+        "url"   => "projet-micromix"
     ),/*
     array(
         "title" => "Émilie & Charles",
@@ -24,7 +24,7 @@ $mini_folios = array(
     array(
         "title" => "Brandalley",
         "desc"  => "Création emailing & auto-promotion durant 1 an (2007).",
-        "url"   => "projet-brandalley.php"
+        "url"   => "projet-brandalley"
     ),/*
     array(
         "title" => "Fanny & Charles",
