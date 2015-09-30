@@ -43,13 +43,18 @@ pm.scrollTo = function () {
 };
 
 
+/**
+ * reduce header when scroll down
+ */
 pm.reduceHeader = function () {
+    var $header = $("#header");
     $(window).on('scroll', function(){
-        if($(window).scrollTop() > 99){
-            $("#header").addClass('active');
+        var $window = $(this);
+        if($window.scrollTop() > 99){
+            $header.addClass('active');
         }
         else {
-            $("#header").removeClass('active');
+            $header.removeClass('active');
         }
     });
 };

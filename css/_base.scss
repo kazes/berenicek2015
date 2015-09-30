@@ -146,10 +146,10 @@ h1, h2, h3, h4, h5, h6 {
     left: 550px;
     border-width: 0 91px 140px 91px;
     border-color: transparent transparent $blue transparent;
-    transition: top 300ms ease;
+    transition: top 300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
 
     .active & {
-        transition: top 400ms ease;
+        transition: top 300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
         top: 84px;
     }
 }
@@ -164,10 +164,11 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER - LOGO BERENICEK */
 #logo-berenicek {
     padding-top: 75px;
-    transition: padding 200ms ease;
+    transition: padding 300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
+    will-change:padding;
 
     .active & {
-        transition: padding 100ms ease;
+        transition: padding 300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
         padding-top: 25px;
     }
 
@@ -187,14 +188,17 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
 }
 #menu-container {
-    padding-top: 23px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 192px;
     padding-left: 20px;
     padding-right: 20px;
-    transition: padding 100ms ease;
+    transition: top 300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
 
     .active & {
-        padding-top: 3px;
-        transition: padding 200ms ease;
+        top: 122px;
+        transition: top 300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
     }
 }
 .menu {
