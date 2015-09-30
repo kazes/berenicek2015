@@ -7,6 +7,7 @@
         <?php $is_home = (isset($page) && $page === 'home'); ?>
         <?php $is_portfolio = (isset($page) && $page === 'portfolio'); ?>
         <?php $is_contact = (isset($page) && $page === 'contact'); ?>
+        <?php $is_drawings = (isset($page) && $page === 'drawings'); ?>
 
         <!-- LOGO -->
         <h1 id="logo-berenicek">
@@ -36,8 +37,8 @@
             </ul>
 
             <ul class="menu right line">
-                <li class="item">
-                    <a href="#">
+                <li class="item <?php if($is_drawings){ ?>active<?php } ?>">
+                    <a href="drawings.php">
                         Drawings
                     </a>
                 </li>

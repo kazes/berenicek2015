@@ -8,11 +8,4 @@
 
 <link href="img/favicon1.png" rel="icon">
 <title>Bérénice K. - Directrice Artistique E-Commerce</title>
-<script>
-    var hasJS = function() {
-        var htmlTag = document.getElementsByTagName('html')[0];
-        htmlTag.className = (htmlTag.className + ' ' || '') + 'hasJS';
-    }();
-</script>
-
 <?php include('functions.inc.php'); ?>
