@@ -17,7 +17,7 @@ pm = {};
 /* WINDOW.ONLOAD */
 $(d).ready(function(){
     pm.scrollTo();
-
+    pm.reduceHeader();
 });
 
 
@@ -33,14 +33,24 @@ pm.scrollTo = function () {
             time = 500,
             destination_y = $destination.offset().top;
 
-        console.log('destination_y', destination_y);
-
         $('html, body').animate({
                 scrollTop: destination_y
             }, {
                 duration:time
             }
         );
+    });
+};
+
+
+pm.reduceHeader = function () {
+    $(window).on('scroll', function(){
+        if($(window).scrollTop() > 99){
+            $("#header").addClass('active');
+        }
+        else {
+            $("#header").removeClass('active');
+        }
     });
 };
 

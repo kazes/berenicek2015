@@ -146,6 +146,12 @@ h1, h2, h3, h4, h5, h6 {
     left: 550px;
     border-width: 0 91px 140px 91px;
     border-color: transparent transparent $blue transparent;
+    transition: top 300ms ease;
+
+    .active & {
+        transition: top 400ms ease;
+        top: 84px;
+    }
 }
 #triangle-pink {
     top: 0;
@@ -158,7 +164,12 @@ h1, h2, h3, h4, h5, h6 {
 /* HEADER - LOGO BERENICEK */
 #logo-berenicek {
     padding-top: 75px;
-    //visibility: hidden; // temp
+    transition: padding 200ms ease;
+
+    .active & {
+        transition: padding 100ms ease;
+        padding-top: 25px;
+    }
 
     a {
         pointer-events: auto;
@@ -179,6 +190,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 23px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: padding 100ms ease;
+
+    .active & {
+        padding-top: 3px;
+        transition: padding 200ms ease;
+    }
 }
 .menu {
     .item {
