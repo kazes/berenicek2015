@@ -24,8 +24,8 @@
         <!-- MENU -->
         <div id="menu-container" class="line">
             <ul class="menu left line">
-                <li id="menu-portfolio" class="item <?php if($is_portfolio){ ?>active<?php } ?>">
-                    <a href="projet-usine-a-design" class="history">
+                <li id="menu-portfolio" class="item <?php if($is_portfolio || $is_home){ ?>active<?php } ?>">
+                    <a href="index" class="history">
                         Portfolio
                     </a>
                 </li>

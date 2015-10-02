@@ -25,9 +25,9 @@ $(d).ready(function(){
 
 /* SCROLL TO */
 pm.scrollTo = function () {
-    var $buttons = $('.JS_scroll-to');
 
-    $buttons.on('click', function (e) {
+
+    $('body').on('click','.JS_scroll-to', function (e) {
         e.preventDefault();
 
         var destination_id = $(this).attr('href'),
@@ -48,7 +48,8 @@ pm.scrollTo = function () {
 pm.ajaxHistory = function () {
     var $ajax = $('#ajax');
     var $menu = $('#menu-container');
-
+    var $logo = $('#logo-berenicek').find('a');
+    var logo_href, logo_title;
 
     // gestion de l'historique
     if('pushState' in history) {
@@ -83,6 +84,7 @@ pm.ajaxHistory = function () {
     var loadPageContent = function (destination) {
         var ajax = new window.XMLHttpRequest();
         var menu_to_active = table[destination];
+        var is_page_index = destination == 'index';
 
         // 1 - préparation de la reception de la réponse
         ajax.onreadystatechange = function () {
@@ -126,6 +128,18 @@ pm.ajaxHistory = function () {
 
         // active menu item
         $('#menu-' + menu_to_active).addClass('active');
+
+        // handle link on logo
+        if(is_page_index){
+            logo_href = '#content';
+            logo_title = 'haut de page ↑';
+        }
+        else {
+            logo_href = 'index';
+            logo_title = 'accueil';
+        }
+        $logo.prop('href', logo_href).prop('title', logo_title);
+        $logo.toggleClass('JS_scroll-to', is_page_index).toggleClass('history', !is_page_index);
     };
 
     // handle click to load page
