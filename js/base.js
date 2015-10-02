@@ -68,7 +68,7 @@ pm.ajaxHistory = function () {
 
     // correspondance 'destination page' : 'menu item to active'
     var table = {
-        'index':'portfolio',
+        'index':'portfolio', // todo : modify htaccess to remove index in url
         'contact':'contact',
         'drawings':'drawings',
         'projet-brandalley':'portfolio',
@@ -112,6 +112,8 @@ pm.ajaxHistory = function () {
         $ajax.one('transitionend', function(){
             $ajax.addClass('moved');
 
+            $(window).scrollTop(0);
+
             /* 3 - lancement de la requete */
             ajax.send(); // si POST les params sont a passer dans le send()
         });
@@ -124,16 +126,6 @@ pm.ajaxHistory = function () {
 
         // active menu item
         $('#menu-' + menu_to_active).addClass('active');
-
-        // scroll to top
-        $('html, body').animate({
-                scrollTop: 0
-            }, {
-                duration:300,
-                complete:function(){
-                }
-            }
-        );
     };
 
     // handle click to load page
