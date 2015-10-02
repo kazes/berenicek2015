@@ -1,4 +1,5 @@
 <?php include('inc/html.inc.php'); ?>
+<?php if(!isajax()) { ?>
 <head>
     <?php include('inc/head.inc.php'); ?>
 </head>
@@ -9,7 +10,7 @@
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
-        
+<?php } ?>
         <div id="page" class="page-width page-project">
             <!-- INTRO -->
             <div class="intro">
@@ -60,7 +61,7 @@
             <?php include('inc/button-contact.inc.php'); ?>
 
         </div>
-
+<?php if(!isajax()) { ?>
         <!-- FOOTER -->
         <?php include('inc/footer.inc.php'); ?>
         
@@ -69,3 +70,4 @@
     <?php include('inc/scripts.inc.php'); ?>
 </body>
 </html>
+<?php } ?>

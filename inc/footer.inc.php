@@ -16,7 +16,7 @@ function buildSectionFooter ($title, $array){
     for ($i = 0; $i < count($array); $i++) {
         $lis .=
             '<li class="item item-' . $i . '">
-                <a href="' . $array[$i][1] . '" class="link">'
+                <a href="' . $array[$i][1] . '" class="link history">'
                     . $array[$i][0] .
                 '</a>
             </li>';
@@ -117,7 +117,7 @@ $followme_items = array(
     )
 );
 ?>
-
+</div><!-- #ajax -->
 <div id="footer">
     <div class="inside page-width">
         <div class="column column-1">

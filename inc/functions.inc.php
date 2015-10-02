@@ -1,4 +1,11 @@
 <?php
+
+
+function isajax() {
+    return isset( $_GET['ajax'] );
+}
+
+
 /**
  * @param string $keyword
  * @param string $title

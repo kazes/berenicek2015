@@ -8,4 +8,4 @@
 
 <link href="img/favicon1.png" rel="icon">
 <title>Bérénice K. - Directrice Artistique E-Commerce</title>
-<?php include('functions.inc.php'); ?>
+

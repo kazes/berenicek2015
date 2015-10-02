@@ -58,7 +58,7 @@ function buildMiniFolio($infos) {
     $img_src = 'img/data/mini-folio/' . $img_src . '.jpg';
 
     return '<div class="mini-folio">
-                <a class="pic" href="'. $url .'">
+                <a class="pic history" href="'. $url .'">
                     <img src="' . $img_src . '" alt="'. $title .'">
                 </a>
                 <h3 class="title">
@@ -67,7 +67,7 @@ function buildMiniFolio($infos) {
                 <p class="desc">
                     '. $desc .'
                 </p>
-                <a class="more" href="'. $url .'" target="_blank">
+                <a class="more history" href="'. $url .'" target="_blank">
                     <span class="accessibility">
                         Voir le projet
                     </span>

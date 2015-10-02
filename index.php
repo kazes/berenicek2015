@@ -1,4 +1,5 @@
 <?php include('inc/html.inc.php'); ?>
+<?php if(!isajax()) { ?>
 <head>
     <?php include('inc/head.inc.php'); ?>
 </head>
@@ -9,13 +10,13 @@
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
-        
+<?php } ?>
         <div id="page" class="page-width">
             <div id="portfolio">
                 <!-- PROJECT - USINE À DESIGN -->
                 <div class="project" id="project-0">
                     <p class="bt-contact">
-                        <a href="projet-usine-a-design">
+                        <a href="projet-usine-a-design" class="history">
                             voir le projet
                         </a>
                     </p>
@@ -34,7 +35,7 @@
                 <!-- PROJECT - BONNE BOX -->
                 <div class="project" id="project-1">
                     <p class="bt-contact">
-                        <a href="projet-la-bonne-box">
+                        <a href="projet-la-bonne-box" class="history">
                             voir le projet
                         </a>
                     </p>
@@ -53,7 +54,7 @@
                 <!-- PROJECT - CONSTANCE FOURNIER -->
                 <div class="project" id="project-2">
                     <p class="bt-contact">
-                        <a href="projet-constance-fournier">
+                        <a href="projet-constance-fournier" class="history">
                             voir le projet
                         </a>
                     </p>
@@ -80,7 +81,7 @@
                 </a>
             </p>
         </div>
-
+<?php if(!isajax()) { ?>
         <!-- FOOTER -->
         <?php include('inc/footer.inc.php'); ?>
         
@@ -89,3 +90,4 @@
     <?php include('inc/scripts.inc.php'); ?>
 </body>
 </html>
+<?php } ?>

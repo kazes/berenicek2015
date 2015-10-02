@@ -43,6 +43,36 @@ body {
 #page {
     padding-top: 270px; /* header height */
 }
+#ajax {
+    position: relative;
+    transform: translateY(0);
+    transition: transform 0.25s;
+    will-change:transform;
+
+    &.moved {
+        transform: translateY(-30px);
+        transition: transform 0ms;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        z-index: 2; // not over the menu
+        pointer-events: none;
+        transition: background-color 400ms; // fade out
+        will-change:background-color;
+    }
+
+    &.active:after {
+        background-color: white;
+        transition: background-color 300ms; // fade in
+    }
+}
 .page-width {
     box-sizing: border-box;
     max-width: 940px;

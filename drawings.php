@@ -1,4 +1,5 @@
 <?php include('inc/html.inc.php'); ?>
+<?php if(!isajax()) { ?>
 <head>
     <?php include('inc/head.inc.php'); ?>
 </head>
@@ -9,7 +10,7 @@
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
-        
+<?php } // if isajax ?>
         <div id="page" class="page-width page-project">
             <!-- INTRO -->
             <div class="intro border">
@@ -23,7 +24,6 @@
                 2013
             </h2>
 
-
             <div class="section">
                 <div class="inner">
                     <img src="img/data/drawings/drawing-1.png" alt="">
@@ -34,7 +34,6 @@
                 2012
             </h2>
 
-
             <?php for ($i = 2; $i <= 11; $i++) { ?>
                 <div class="section">
                     <div class="inner">
@@ -43,20 +42,15 @@
                 </div>
             <?php } ?>
 
-
-
-
-
             <!-- FOOTER - CONTACT -->
             <?php include('inc/button-contact.inc.php'); ?>
-
         </div>
-
+<?php if(!isajax()) { ?>
         <!-- FOOTER -->
         <?php include('inc/footer.inc.php'); ?>
-        
     </div>
     
     <?php include('inc/scripts.inc.php'); ?>
 </body>
 </html>
+<?php } ?>

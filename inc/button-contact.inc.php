@@ -1,5 +1,5 @@
 <p class="bt-contact">
-    <a href="contact">
+    <a href="contact" class="history">
         Racontez-moi votre projet <span class="excla">!</span>
     </a>
 </p>
