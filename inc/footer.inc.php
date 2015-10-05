@@ -1,140 +1,51 @@
-<?php
-/**
- * Builds a section with its list of links
- * @param $title
- * @param $array
- * @return string
- */
-$section_id = 0;
-function buildSectionFooter ($title, $array){
-    // creates id
-    global $section_id;
-    $section_id++; // starts at 1
 
-    // creates html <li>
-    $lis = '';
-    for ($i = 0; $i < count($array); $i++) {
-        $lis .=
-            '<li class="item item-' . $i . '">
-                <a href="' . $array[$i][1] . '" class="link history">'
-                    . $array[$i][0] .
-                '</a>
-            </li>';
-    }
-
-    // returns the full section
-    return '<div class="section" id="ft-section-'. $section_id .'">
-                <h2 class="title">
-                    ' . $title . '
-                </h2>
-                <ul class="list">'
-                    . $lis .
-                '</ul>
-            </div>';
-}
-
-
-// Portfolio
-$portfolio_items = array(
-    array(
-        "L’Usine à Design",
-        "projet-usine-a-design"
-    ),
-    array(
-        "La Bonne Box",
-        "projet-la-bonne-box"
-    ),
-    array(
-        "New Kidz Stories",
-        "projet-new-kidz"
-    ),/*
-    array(
-        "Émilie & Charles",
-        "http://www.emilieetcharles.com"
-    ),*/
-    array(
-        "Micromix",
-        "projet-micromix"
-    ),/*
-    array(
-        "Fanny & Charles",
-        "http://www.fannyetcharles.com"
-    ),
-    array(
-        "Babaz",
-        "http://www.babaz.com"
-    ),*/
-    array(
-        "Brandalley",
-        "projet-brandalley"
-    )
-);
-
-
-// CV & Contact
-$cv_contact_items = array(
-    array(
-        "Télécharger mon CV en pdf",
-        "pdf/berenice-krzyzaniak-boudot-cv.pdf"
-    ),
-    array(
-        "Contactez-moi",
-        "contact"
-    )
-);
-
-
-// Drawings
-$drawings_items = array(
-    array(
-        "2014",
-        "/drawings/2014"
-    ),
-    array(
-        "2013",
-        "/drawings/2013"
-    ),
-    array(
-        "2012",
-        "/drawings/2012"
-    ),
-    array(
-        "Oldies",
-        "/drawings/oldies"
-    )
-);
-
-
-// Suivez-moi
-$followme_items = array(
-    array(
-        "pinterest",
-        "http://www.pinterest.com/berenicek"
-    ),
-    array(
-        "instagram",
-        "http://instagram.com/sweetberenicek/"
-    )
-);
-?>
 </div><!-- #ajax -->
 <div id="footer">
     <div class="inside page-width">
         <div class="column column-1">
-            <?php echo buildSectionFooter("Portfolio", $portfolio_items); ?>
-        </div>
+            <div class="section" id="ft-section-1">
+                <h2 class="title">
+                    <a href="index" class="history">Portfolio</a>
+                </h2>
+                <ul class="list"><li class="item item-0">
+                        <a href="projet-usine-a-design" class="link history">L’Usine à Design</a>
+                    </li><li class="item item-1">
+                        <a href="projet-la-bonne-box" class="link history">La Bonne Box</a>
+                    </li><li class="item item-2">
+                        <a href="projet-new-kidz" class="link history">New Kidz Stories</a>
+                    </li><li class="item item-3">
+                        <a href="projet-micromix" class="link history">Micromix</a>
+                    </li><li class="item item-4">
+                        <a href="projet-brandalley" class="link history">Brandalley</a>
+                    </li></ul>
+            </div>        </div>
         <div class="column column-2">
-            <?php
-            echo buildSectionFooter("CV & Contact", $cv_contact_items);
-            //echo buildSectionFooter("Drawings", $drawings_items);
-            echo buildSectionFooter("", array());
-            ?>
-        </div>
+            <div class="section" id="ft-section-2">
+                <h2 class="title">
+                    <a href="contact" class="history"> CV & Contact</a>
+                </h2>
+                <ul class="list"><li class="item item-0">
+                        <a href="pdf/berenice-krzyzaniak-boudot-cv.pdf" class="link history">Télécharger mon CV en pdf</a>
+                    </li><li class="item item-1">
+                        <a href="contact" class="link history">Contactez-moi</a>
+                    </li></ul>
+            </div><div class="section" id="ft-section-3">
+                <h2 class="title">
+
+                </h2>
+                <ul class="list"></ul>
+            </div>        </div>
         <div class="column column-3">
-            <?php
-            echo buildSectionFooter("Suivez-moi", $followme_items);
-            ?>
-        </div>
+            <div class="section" id="ft-section-4">
+                <h2 class="title">
+                    Suivez-moi
+                </h2>
+                <ul class="list"><li class="item item-0">
+                        <a href="http://www.pinterest.com/berenicek" class="link history">pinterest</a>
+                    </li><li class="item item-1">
+                        <a href="http://instagram.com/sweetberenicek/" class="link history">instagram</a>
+                    </li></ul>
+            </div>        </div>
 
         <p id="credits">
             Copyright bérénice krzyzaniak -
