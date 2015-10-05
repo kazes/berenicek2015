@@ -9,19 +9,22 @@
                     <a href="index" class="history">Portfolio</a>
                 </h2>
                 <ul class="list">
-                    <li class="item item-0">
+                    <li class="item">
                         <a href="projet-usine-a-design" class="link history">L’Usine à Design</a>
                     </li>
-                    <li class="item item-1">
+                    <li class="item">
                         <a href="projet-la-bonne-box" class="link history">La Bonne Box</a>
                     </li>
-                    <li class="item item-2">
+                    <li class="item">
+                        <a href="projet-constance-fournier" class="link history">Constance Fournier</a>
+                    </li>
+                    <li class="item">
                         <a href="projet-new-kidz" class="link history">New Kidz Stories</a>
                     </li>
-                    <li class="item item-3">
+                    <li class="item">
                         <a href="projet-micromix" class="link history">Micromix</a>
                     </li>
-                    <li class="item item-4">
+                    <li class="item">
                         <a href="projet-brandalley" class="link history">Brandalley</a>
                     </li>
                 </ul>
