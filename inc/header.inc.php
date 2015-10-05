@@ -14,7 +14,7 @@
             <?php if($is_home) { ?>
                 <a href="#content" class="JS_scroll-to" title="haut de page ↑">
             <?php } else { ?>
-                <a href="index" title="accueil" class="history">
+                <a href="/" title="accueil" class="history">
             <?php }  ?>
                 <img src="img/data/berenicek-logo.png" alt="Bérénice K. Directrice Artistique e-commerce">
             </a>
@@ -25,7 +25,7 @@
         <div id="menu-container" class="line">
             <ul class="menu left line">
                 <li id="menu-portfolio" class="item <?php if($is_portfolio || $is_home){ ?>active<?php } ?>">
-                    <a href="index" class="history">
+                    <a href="/" class="history">
                         Portfolio
                     </a>
                 </li>

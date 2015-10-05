@@ -6,7 +6,7 @@
         <div class="column column-1">
             <div class="section" id="ft-section-1">
                 <h2 class="title">
-                    <a href="index" class="history">Portfolio</a>
+                    <a href="/" class="history">Portfolio</a>
                 </h2>
                 <ul class="list">
                     <li class="item">

@@ -3,7 +3,7 @@
 
     project:    Bérénice K. Portfolio 2015
     created:    2014-12-22
-    author:     Florian Boudot - www.papadiv.com
+    author:     Florian Boudot
     
 ----------------------------------------------------------------------------- */
 
@@ -69,7 +69,7 @@ pm.ajaxHistory = function () {
 
     // correspondance 'destination page' : 'menu item to active'
     var table = {
-        'index':'portfolio', // todo : modify htaccess to remove index in url
+        '/':'portfolio',
         'contact':'contact',
         'drawings':'drawings',
         'projet-brandalley':'portfolio',
