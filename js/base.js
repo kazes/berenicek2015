@@ -84,7 +84,7 @@ pm.ajaxHistory = function () {
     var loadPageContent = function (destination) {
         var ajax = new window.XMLHttpRequest();
         var menu_to_active = table[destination];
-        var is_page_index = destination == 'index';
+        var is_page_index = destination == '/';
 
         // 1 - préparation de la reception de la réponse
         ajax.onreadystatechange = function () {
@@ -135,7 +135,7 @@ pm.ajaxHistory = function () {
             logo_title = 'haut de page ↑';
         }
         else {
-            logo_href = 'index';
+            logo_href = '/';
             logo_title = 'accueil';
         }
         $logo.prop('href', logo_href).prop('title', logo_title);
