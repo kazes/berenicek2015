@@ -772,52 +772,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* SOCIAL */
-.social a {// todo refactor social buttons (keep this code)
-    display: block;
-    width: 62px;
-    height: 62px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-indent: -9999px;
-    background-image: url(../img/skin/sprites-social.png);
-    background-repeat: no-repeat;
-}
-/* SOCIAL - LINKEDIN */
-.social.linkedin a {
-    background-position: 0 -124px;
-}
-/* SOCIAL - PINTEREST */
-.social.pinterest a {
-    background-position: 0 0;
-}
-/* SOCIAL - FACEBOOK */
-.social.facebook a {
-    background-position: 0 -62px;
-}
-/* SOCIAL - INSTAGRAM */
-.social.instagram a {
-    background-position: 0 -186px;
-}
-
-/* SECTION FOLLOW ME */
-#ft-section-4 {
-    .item a { // todo refactor social buttons (remove this code)
+.social {
+    a {
         display: block;
         width: 62px;
         height: 62px;
         margin: 0 auto;
         overflow: hidden;
         text-indent: -9999px;
-        background-image: url(../img/skin/sprites-social.png);
-        background-repeat: no-repeat;
+        background: url(../img/skin/sprites-social.png) 0 0 no-repeat;
     }
-
-    /* PINTEREST */
-    .item-0 a {
+    &.linkedin a {
+        background-position: 0 -124px;
+    }
+    &.pinterest a {
         background-position: 0 0;
     }
-    /* INSTAGRAM */
-    .item-1 a {
+    &.facebook a {
+        background-position: 0 -62px;
+    }
+    &.instagram a {
         background-position: 0 -186px;
     }
 }
@@ -839,6 +813,8 @@ h1, h2, h3, h4, h5, h6 {
         color: $gray9;
     }
 }
+
+
 
 
 /* END */

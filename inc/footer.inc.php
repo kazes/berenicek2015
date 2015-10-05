@@ -45,12 +45,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="section" id="ft-section-3">
-                <h2 class="title">
-
-                </h2>
-                <ul class="list"></ul>
-            </div>
         </div>
         <div class="column column-3">
             <div class="section" id="ft-section-4">
@@ -58,10 +52,10 @@
                     Suivez-moi
                 </h2>
                 <ul class="list">
-                    <li class="item item-0">
+                    <li class="item social pinterest">
                         <a href="http://www.pinterest.com/berenicek" class="link history">pinterest</a>
                     </li>
-                    <li class="item item-1">
+                    <li class="item social instagram">
                         <a href="http://instagram.com/sweetberenicek/" class="link history">instagram</a>
                     </li>
                 </ul>
