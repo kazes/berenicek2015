@@ -10,7 +10,9 @@
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
-<?php } ?>
+
+        <?php } // end if ajax ?>
+
         <div id="page" class="page-width">
             <div id="portfolio">
                 <!-- PROJECT - USINE À DESIGN -->
@@ -20,15 +22,18 @@
                             voir le projet
                         </a>
                     </p>
-                    <h2 class="title-1">
-                        Directrice artistique web pendant 3 ans chez L’Usine à Design
-                    </h2>
-                    <h3 class="title-2">
-                        Identité, charte graphique & web, ergonomie, charte photo, création & gestion des auto-promotions, management d’une équipe, direction de projet.
-                    </h3>
-                    <div class="pic laptop">
-                        <img src="img/data/projects/uad/home-preview.png" alt="L’Usine à Design">
+                    <div class="inner">
+                        <h2 class="title-1">
+                            Directrice artistique web pendant 3 ans chez L’Usine à Design
+                        </h2>
+                        <h3 class="title-2">
+                            Identité, charte graphique & web, ergonomie, charte photo, création & gestion des auto-promotions, management d’une équipe, direction de projet.
+                        </h3>
+                        <div class="pic laptop">
+                            <img src="img/data/projects/uad/home-preview.png" alt="L’Usine à Design">
+                        </div>
                     </div>
+
                 </div>
 
 
@@ -39,14 +44,16 @@
                             voir le projet
                         </a>
                     </p>
-                    <h2 class="title-1">
-                        Refonte de l’identité web de la bonne box
-                    </h2>
-                    <h3 class="title-2">
-                        Réalisé en freelance en collaboration avec Virginie Barnay Duhamel.
-                    </h3>
-                    <div class="pic">
-                        <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
+                    <div class="inner">
+                        <h2 class="title-1">
+                            Refonte de l’identité web de la bonne box
+                        </h2>
+                        <h3 class="title-2">
+                            Réalisé en freelance en collaboration avec Virginie Barnay Duhamel.
+                        </h3>
+                        <div class="pic">
+                            <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
+                        </div>
                     </div>
                 </div>
 
@@ -58,14 +65,16 @@
                             voir le projet
                         </a>
                     </p>
-                    <h2 class="title-1">
-                        Création d’une nouvelle identité web pour constance fournier
-                    </h2>
-                    <h3 class="title-2">
-                        Site vitrine de la créatrice de robe de mariées sur-mesure.
-                    </h3>
-                    <div class="pic">
-                        <img src="img/data/projects/constancefournier/home-preview.png" alt="Constance Fournier">
+                    <div class="inner">
+                        <h2 class="title-1">
+                            Création d’une nouvelle identité web pour constance fournier
+                        </h2>
+                        <h3 class="title-2">
+                            Site vitrine de la créatrice de robe de mariées sur-mesure.
+                        </h3>
+                        <div class="pic">
+                            <img src="img/data/projects/constancefournier/home-preview.png" alt="Constance Fournier">
+                        </div>
                     </div>
                 </div>
             </div>

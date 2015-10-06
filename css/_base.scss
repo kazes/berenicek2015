@@ -355,7 +355,15 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0;
     }
 
+    .inner {
+        transition: filter 300ms 100ms;
+        will-change:filter;
+    }
+
     &:hover {
+        .inner {
+            filter:blur(1px);
+        }
         &:after {
             top: 10%;
             opacity: 0.4;
@@ -368,18 +376,18 @@ h1, h2, h3, h4, h5, h6 {
             transition: opacity 0.3s ease 0.2s, margin 0.1s ease 0.2s;
         }
     }
-}
+    .pic {
+        padding-bottom: 70px;
 
-.project .pic {
-    padding-bottom: 70px;
-
-    img {
-        display: block;
-        margin: auto;
-        width: auto;
-        max-width: 100%;
+        img {
+            display: block;
+            margin: auto;
+            width: auto;
+            max-width: 100%;
+        }
     }
 }
+
 
 
 
