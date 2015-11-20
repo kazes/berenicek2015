@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     position: relative;
 
-    &:after {
+    &:after { // triangle
         content: '';
         position: absolute;
         left: 50%;
@@ -347,11 +347,10 @@ h1, h2, h3, h4, h5, h6 {
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate3d(-50%,-50%,0);
-        margin-top:-20px;
+        transform: translate3d(-50%,-60%,0);
         z-index: 2;
-        transition: opacity 0.2s ease, margin 0.2s ease;
-        will-change:opacity, margin;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        will-change:opacity, transform;
         opacity: 0;
     }
 
@@ -364,16 +363,18 @@ h1, h2, h3, h4, h5, h6 {
         .inner {
             filter:blur(1px);
         }
+        $triangle_delay : 200ms;
         &:after {
             top: 10%;
             opacity: 0.4;
             border-width: 0 1092px 1680px 1092px;
-            transition: border-width 0.25s ease-in, opacity 0.25s ease-in, top 0.25s ease-in;
+            transition: border-width 0.25s ease-in $triangle_delay, opacity 0.25s ease-in $triangle_delay, top 0.25s ease-in $triangle_delay;
         }
         .bt-contact {
+            $button_delay: #{$triangle_delay + 200ms};
             opacity: 1;
-            margin-top:0;
-            transition: opacity 0.3s ease 0.2s, margin 0.1s ease 0.2s;
+            transform: translate3d(-50%,-50%,0);
+            transition: opacity 0.4s ease $button_delay, transform 0.3s ease $button_delay;
         }
     }
     .pic {
