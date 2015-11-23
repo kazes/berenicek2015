@@ -25,6 +25,9 @@
                         <a href="projet-micromix" class="link history">Micromix</a>
                     </li>
                     <li class="item">
+                        <a href="projet-chez-ta-mere" class="link history">Chez ta mère</a>
+                    </li>
+                    <li class="item">
                         <a href="projet-brandalley" class="link history">Brandalley</a>
                     </li>
                 </ul>

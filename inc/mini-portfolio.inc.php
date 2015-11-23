@@ -30,12 +30,12 @@ $mini_folios = array(
         "title" => "Fanny & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
         "url"   => "projet-fanny-et-charles.php"
-    ),
+    ),*/
     array(
         "title" => "Chez ta mère",
         "desc"  => "Création de visuels pour un projet de salon de thé.",
         "url"   => "projet-chez-ta-mere.php"
-    )*/
+    )
 );
 
 
