@@ -78,7 +78,8 @@ pm.ajaxHistory = function () {
         'projet-la-bonne-box':'portfolio',
         'projet-micromix':'portfolio',
         'projet-new-kidz':'portfolio',
-        'projet-usine-a-design':'portfolio'
+        'projet-usine-a-design':'portfolio',
+        'projet-chez-ta-mere':'portfolio'
     };
 
     var loadPageContent = function (destination) {

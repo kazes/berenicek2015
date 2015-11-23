@@ -34,7 +34,7 @@ $mini_folios = array(
     array(
         "title" => "Chez ta mère",
         "desc"  => "Création de visuels pour un projet de salon de thé.",
-        "url"   => "projet-chez-ta-mere.php"
+        "url"   => "projet-chez-ta-mere"
     )
 );
 
