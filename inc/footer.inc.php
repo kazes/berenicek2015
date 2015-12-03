@@ -21,9 +21,9 @@
                     <li class="item">
                         <a href="projet-new-kidz" class="link history">New Kidz Stories</a>
                     </li>
-                    <li class="item">
+                    <!--<li class="item">
                         <a href="projet-micromix" class="link history">Micromix</a>
-                    </li>
+                    </li>-->
                     <li class="item">
                         <a href="projet-chez-ta-mere" class="link history">Chez ta mère</a>
                     </li>

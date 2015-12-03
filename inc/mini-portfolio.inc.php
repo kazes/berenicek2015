@@ -5,12 +5,12 @@ $mini_folios = array(
         "title" => "New kidz stories",
         "desc"  => "Identité graphique d’un blog en devenir pour jeunes enfants et mamans.",
         "url"   => "projet-new-kidz"
-    ),
+    ),/*
     array(
         "title" => "Micromix",
         "desc"  => "Graphisme pour les  flyers des soirées du site micromix.fr.",
         "url"   => "projet-micromix"
-    ),/*
+    ),
     array(
         "title" => "Émilie & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
