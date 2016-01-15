@@ -16,11 +16,11 @@
         <div id="page" class="page-width">
             <div id="portfolio">
                 <!-- PROJECT - USINE À DESIGN -->
-                <div class="project" id="project-0">
+                <a href="projet-usine-a-design" class="project history" id="project-0">
                     <p class="bt-contact">
-                        <a href="projet-usine-a-design" class="history">
+                        <span class="bt">
                             voir le projet
-                        </a>
+                        </span>
                     </p>
                     <div class="inner">
                         <h2 class="title-1">
@@ -33,16 +33,15 @@
                             <img src="img/data/projects/uad/home-preview.png" alt="L’Usine à Design">
                         </div>
                     </div>
-
-                </div>
+                </a>
 
 
                 <!-- PROJECT - BONNE BOX -->
-                <div class="project" id="project-1">
+                <a href="projet-la-bonne-box" class="project history" id="project-1">
                     <p class="bt-contact">
-                        <a href="projet-la-bonne-box" class="history">
+                        <span class="bt">
                             voir le projet
-                        </a>
+                        </span>
                     </p>
                     <div class="inner">
                         <h2 class="title-1">
@@ -55,15 +54,15 @@
                             <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
                         </div>
                     </div>
-                </div>
+                </a>
 
 
                 <!-- PROJECT - CONSTANCE FOURNIER -->
-                <div class="project" id="project-2">
+                <a href="projet-constance-fournier" class="project history" id="project-2">
                     <p class="bt-contact">
-                        <a href="projet-constance-fournier" class="history">
+                        <span class="bt">
                             voir le projet
-                        </a>
+                        </span>
                     </p>
                     <div class="inner">
                         <h2 class="title-1">
@@ -76,7 +75,7 @@
                             <img src="img/data/projects/constancefournier/home-preview.png" alt="Constance Fournier">
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
 
@@ -85,7 +84,7 @@
 
             <!-- CONTACT -->
             <p class="bt-contact">
-                <a href="mailto:berenice.krzyzaniak@gmail.com" title="un mailto temporaire en attendant la page contact !">
+                <a href="contact" class="history bt">
                     Contactez-moi, c’est sympa <span class="excla">!</span>
                 </a>
             </p>

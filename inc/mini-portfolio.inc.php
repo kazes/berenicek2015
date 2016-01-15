@@ -22,20 +22,21 @@ $mini_folios = array(
         "url"   => "projet-babaz.php"
     ),*/
     array(
+        "title" => "Chez ta mère",
+        "desc"  => "Création de visuels pour un projet de salon de thé.",
+        "url"   => "projet-chez-ta-mere"
+    ),
+    array(
         "title" => "Brandalley",
         "desc"  => "Création emailing & auto-promotion durant 1 an (2007).",
         "url"   => "projet-brandalley"
-    ),/*
+    )/*
     array(
         "title" => "Fanny & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
         "url"   => "projet-fanny-et-charles.php"
     ),*/
-    array(
-        "title" => "Chez ta mère",
-        "desc"  => "Création de visuels pour un projet de salon de thé.",
-        "url"   => "projet-chez-ta-mere"
-    )
+
 );
 
 

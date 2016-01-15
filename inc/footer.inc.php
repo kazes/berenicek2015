@@ -40,8 +40,7 @@
                 </h2>
                 <ul class="list">
                     <li class="item item-0">
-                        <a href="pdf/berenice-krzyzaniak-boudot-cv.pdf" class="link history">Télécharger mon CV en
-                            pdf</a>
+                        <a href="pdf/berenice-krzyzaniak-boudot-cv.pdf" class="link" target="_blank">Télécharger mon CV en pdf</a>
                     </li>
                     <li class="item item-1">
                         <a href="contact" class="link history">Contactez-moi</a>
@@ -56,10 +55,10 @@
                 </h2>
                 <ul class="list">
                     <li class="item social pinterest">
-                        <a href="http://www.pinterest.com/berenicek" class="link history">pinterest</a>
+                        <a href="http://www.pinterest.com/berenicek" class="link" target="_blank">pinterest</a>
                     </li>
                     <li class="item social instagram">
-                        <a href="http://instagram.com/sweetberenicek/" class="link history">instagram</a>
+                        <a href="http://instagram.com/sweetberenicek/" class="link" target="_blank">instagram</a>
                     </li>
                 </ul>
             </div>
