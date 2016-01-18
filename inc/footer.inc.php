@@ -19,16 +19,22 @@
                         <a href="projet-constance-fournier" class="link history">Constance Fournier</a>
                     </li>
                     <li class="item">
-                        <a href="projet-new-kidz" class="link history">New Kidz Stories</a>
+                        <a href="projet-paris-1850" class="link history">Paris 1850</a>
                     </li>
-                    <!--<li class="item">
-                        <a href="projet-micromix" class="link history">Micromix</a>
-                    </li>-->
                     <li class="item">
                         <a href="projet-chez-ta-mere" class="link history">Chez ta mère</a>
                     </li>
                     <li class="item">
-                        <a href="projet-brandalley" class="link history">Brandalley</a>
+                        <a href="projet-new-kidz" class="link history">New Kidz Stories</a>
+                    </li>
+                    <li class="item">
+                        <a href="projet-emilie-et-charles" class="link history">Émilie & Charles</a>
+                    </li>
+                    <li class="item">
+                        <a href="projet-micromix" class="link history">Micromix</a>
+                    </li>
+                    <li class="item">
+                        <a href="projet-fanny-et-charles" class="link history">Fanny & Charles</a>
                     </li>
                 </ul>
             </div>
@@ -47,11 +53,34 @@
                     </li>
                 </ul>
             </div>
+            <div class="section" id="ft-section-3">
+                <h2 class="title">
+                    <a href="" class="history">Drawings</a>
+                </h2>
+                <ul class="list">
+                    <li class="item item-0">
+                        <a href="" class="link history">2016</a>
+                    </li>
+                    <li class="item item-1">
+                        <a href="" class="link history">2014</a>
+                    </li>
+                    <li class="item item-2">
+                        <a href="" class="link history">2013</a>
+                    </li>
+                    <li class="item item-3">
+                        <a href="" class="link history">2012</a>
+                    </li>
+                    <li class="item item-4">
+                        <a href="" class="link history">Oldies</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="column column-3">
             <div class="section" id="ft-section-4">
                 <h2 class="title">
-                    Suivez-moi
+                    « Follow me »<br>
+                    -ok.
                 </h2>
                 <ul class="list">
                     <li class="item social pinterest">
