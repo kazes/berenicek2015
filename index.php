@@ -57,10 +57,10 @@
                             Refonte de l’identité web de la bonne box
                         </h2>
                         <h3 class="title-2">
-                            Réalisé en freelance en collaboration avec Virginie Barnay Duhamel.
+                            Réalisé en freelance.
                         </h3>
                         <div class="pic">
-                            <img src="img/data/projects/bonne-box.jpg" alt="Bonne Box">
+                            <img src="img/data/projects/bonnebox/bonne-box.jpg" alt="Bonne Box">
                         </div>
                     </div>
                 </a>
