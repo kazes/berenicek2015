@@ -25,9 +25,7 @@ $(d).ready(function(){
 
 /* SCROLL TO */
 pm.scrollTo = function () {
-
-
-    $('body').on('click','.JS_scroll-to', function (e) {
+    $('body').on('click', '.JS_scroll-to', function (e) {
         e.preventDefault();
 
         var destination_id = $(this).attr('href'),
@@ -130,7 +128,7 @@ pm.ajaxHistory = function () {
         // active menu item
         $('#menu-' + menu_to_active).addClass('active');
 
-        // handle link on logo
+        // logo link : change value
         if(is_page_index){
             logo_href = '#content';
             logo_title = 'haut de page ↑';

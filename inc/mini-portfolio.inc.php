@@ -1,7 +1,7 @@
 <?php
 // all data for portfolios
 $mini_folios = array(
-    array(
+    /*array(
         "title" => "2016 drawings",
         "desc"  => "Carnet de croquis & inspirations",
         "url"   => "drawings-2016"
@@ -10,7 +10,7 @@ $mini_folios = array(
         "title" => "Paris 1850",
         "desc"  => "Création d’un logo pour un projet de reconstitution de Paris en 3D",
         "url"   => "projet-paris-1850"
-    ),
+    ),*/
     array(
         "title" => "Chez ta mère",
         "desc"  => "Création de visuels pour un projet de salon de thé.",
@@ -31,11 +31,11 @@ $mini_folios = array(
         "desc"  => "Identité graphique d’un blog en devenir pour jeunes enfants et mamans.",
         "url"   => "projet-new-kidz"
     ),
-    array(
+    /*array(
         "title" => "Émilie & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
         "url"   => "projet-emilie-et-charles"
-    ),
+    ),*/
     array(
         "title" => "L’Usine à Design",
         "desc"  => "Identité, conception & interface pour une site de mobilier et déco.",
@@ -52,15 +52,15 @@ $mini_folios = array(
         "url"   => "projet-brandalley"
     ),*/
     array(
-        "title" => "2012 drawings",
-        "desc"  => "Carnet de croquis ét inspirations",
-        "url"   => "drawings-2012"
+        "title" => "drawings",
+        "desc"  => "Carnet de croquis et inspirations",
+        "url"   => "drawings"
     ),
-    array(
+    /*array(
         "title" => "Fanny & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
         "url"   => "projet-fanny-et-charles"
-    ),
+    ),*/
     array(
         "title" => "Micromix",
         "desc"  => "Graphisme pour les  flyers des soirées du site micromix.fr.",

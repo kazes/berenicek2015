@@ -18,24 +18,24 @@
                     <li class="item">
                         <a href="projet-constance-fournier" class="link history">Constance Fournier</a>
                     </li>
-                    <li class="item">
+                    <!--<li class="item">
                         <a href="projet-paris-1850" class="link history">Paris 1850</a>
-                    </li>
+                    </li>-->
                     <li class="item">
                         <a href="projet-chez-ta-mere" class="link history">Chez ta mère</a>
                     </li>
                     <li class="item">
                         <a href="projet-new-kidz" class="link history">New Kidz Stories</a>
                     </li>
-                    <li class="item">
+                    <!--<li class="item">
                         <a href="projet-emilie-et-charles" class="link history">Émilie & Charles</a>
-                    </li>
+                    </li>-->
                     <li class="item">
                         <a href="projet-micromix" class="link history">Micromix</a>
                     </li>
-                    <li class="item">
+                    <!--<li class="item">
                         <a href="projet-fanny-et-charles" class="link history">Fanny & Charles</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>
@@ -59,9 +59,9 @@
                 </h2>
                 <ul class="list">
                     <li class="item item-0">
-                        <a href="" class="link history">2016</a>
+                        <a href="drawings" class="link history">2013</a>
                     </li>
-                    <li class="item item-1">
+                    <!--<li class="item item-1">
                         <a href="" class="link history">2014</a>
                     </li>
                     <li class="item item-2">
@@ -72,7 +72,7 @@
                     </li>
                     <li class="item item-4">
                         <a href="" class="link history">Oldies</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>
