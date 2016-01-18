@@ -2,41 +2,70 @@
 // all data for portfolios
 $mini_folios = array(
     array(
-        "title" => "New kidz stories",
-        "desc"  => "Identité graphique d’un blog en devenir pour jeunes enfants et mamans.",
-        "url"   => "projet-new-kidz"
-    ),/*
-    array(
-        "title" => "Micromix",
-        "desc"  => "Graphisme pour les  flyers des soirées du site micromix.fr.",
-        "url"   => "projet-micromix"
+        "title" => "2016 drawings",
+        "desc"  => "Carnet de croquis & inspirations",
+        "url"   => "drawings-2016"
     ),
     array(
-        "title" => "Émilie & Charles",
-        "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
-        "url"   => "projet-emilie-et-charles.php"
+        "title" => "Paris 1850",
+        "desc"  => "Création d’un logo pour un projet de reconstitution de Paris en 3D",
+        "url"   => "projet-paris-1850"
     ),
-    array(
-        "title" => "Babaz",
-        "desc"  => "Logo en co-direction artistique pour un site d’habits pour enfants.",
-        "url"   => "projet-babaz.php"
-    ),*/
     array(
         "title" => "Chez ta mère",
         "desc"  => "Création de visuels pour un projet de salon de thé.",
         "url"   => "projet-chez-ta-mere"
     ),
     array(
+        "title" => "Constance Fournier",
+        "desc"  => "Conseil, conception et interface pour la créatrice de robes de mariées.",
+        "url"   => "projet-constance-fournier"
+    ),
+    array(
+        "title" => "La Bonne Box",
+        "desc"  => "Refonte d’identité web & interface pour une box d’épicerie fine.",
+        "url"   => "projet-la-bonne-box"
+    ),
+    array(
+        "title" => "New kidz stories",
+        "desc"  => "Identité graphique d’un blog en devenir pour jeunes enfants et mamans.",
+        "url"   => "projet-new-kidz"
+    ),
+    array(
+        "title" => "Émilie & Charles",
+        "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
+        "url"   => "projet-emilie-et-charles"
+    ),
+    array(
+        "title" => "L’Usine à Design",
+        "desc"  => "Identité, conception & interface pour une site de mobilier et déco.",
+        "url"   => "projet-usine-a-design"
+    ),/*
+    array(
+        "title" => "Babaz",
+        "desc"  => "Logo en co-direction artistique pour un site d’habits pour enfants.",
+        "url"   => "projet-babaz.php"
+    ),
+    array(
         "title" => "Brandalley",
         "desc"  => "Création emailing & auto-promotion durant 1 an (2007).",
         "url"   => "projet-brandalley"
-    )/*
+    ),*/
+    array(
+        "title" => "2012 drawings",
+        "desc"  => "Carnet de croquis ét inspirations",
+        "url"   => "drawings-2012"
+    ),
     array(
         "title" => "Fanny & Charles",
         "desc"  => "Illustration, Graphisme & Site web pour une communication de mariage.",
-        "url"   => "projet-fanny-et-charles.php"
-    ),*/
-
+        "url"   => "projet-fanny-et-charles"
+    ),
+    array(
+        "title" => "Micromix",
+        "desc"  => "Graphisme pour les  flyers des soirées du site micromix.fr.",
+        "url"   => "projet-micromix"
+    )
 );
 
 
@@ -54,24 +83,23 @@ function buildMiniFolio($infos) {
     // create img src by cleaning the title
     $img_src = str_replace('É', 'e', $title);
     $img_src = str_replace(' ', '-', $img_src);
+    $img_src = str_replace('’', '', $img_src);
     $img_src = str_replace('è', 'e', $img_src);
+    $img_src = str_replace('à', 'a', $img_src);
     $img_src = strtolower(str_replace('&', 'et', $img_src));
     $img_src = 'img/data/mini-folio/' . $img_src . '.jpg';
 
     return '<div class="mini-folio">
-                <a class="pic history" href="'. $url .'">
-                    <img src="' . $img_src . '" alt="'. $title .'">
-                </a>
-                <h3 class="title">
-                    '. $title .'
-                </h3>
-                <p class="desc">
-                    '. $desc .'
-                </p>
-                <a class="more history" href="'. $url .'" target="_blank">
-                    <span class="accessibility">
-                        Voir le projet
-                    </span>
+                <a class="history" href="'. $url .'">
+                    <div class="pic">
+                        <img src="' . $img_src . '" alt="'. $title .'">
+                    </div>
+                    <h3 class="title">
+                        '. $title .'
+                    </h3>
+                    <p class="desc">
+                        '. $desc .'
+                    </p>
                 </a>
             </div>';
 }

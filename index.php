@@ -92,13 +92,17 @@
                 </p>
             </div>
 
-
             <p class="title-6">
                 Miscellanées
             </p>
 
             <!-- MINI PORTFOLIO -->
             <?php include('inc/mini-portfolio.inc.php'); ?>
+
+            <p class="quote line-1" id="edito-3">
+                Concevoir des univers, construire les codes qui les régissent<br>
+                et bâtir un dialogue avec l’utilisateur me passionne.
+            </p>
 
             <!-- CONTACT -->
             <p class="bt-contact">

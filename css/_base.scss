@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
         left: 0;
         z-index: -1;
         right: 0;
-        top: 35px;
+        top: 40px;
         position: absolute;
         background: $gray4;
     }
@@ -192,6 +192,10 @@ h1, h2, h3, h4, h5, h6 {
 
     &#edito-2 {
         margin-top: -47px;
+    }
+    &#edito-3 {
+        margin-top: -20px;
+        padding-bottom: 7px;
     }
 }
 
@@ -473,8 +477,6 @@ h1, h2, h3, h4, h5, h6 {
 /* MINI FOLIOS */
 .mini-folios-container {
     overflow: hidden;
-    border-bottom: 1px solid $gray4;
-    margin-bottom: 20px;
 }
 .mini-folio {
     float: left;
@@ -483,6 +485,8 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     margin-right: 2.1333333333333333%;/* 20px / 940px */
     padding: 10px;
+    min-height: 233px;
+    padding-bottom: 0;
     text-align: center;
     margin-bottom: 20px;
     position: relative;
@@ -501,12 +505,12 @@ h1, h2, h3, h4, h5, h6 {
         bottom: -13px;
         left: -1px;
     }
-    &:nth-child(4) {
+    &:nth-child(4n) {
         margin-right: 0;
     }
     .pic {
         display: block;
-        margin-bottom: 16px;
+        margin-bottom: 15px;
         overflow: hidden;
 
         & img {
@@ -526,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         font-size: 14px;
         color: $gray8;
-        padding-bottom: 10px;
+        padding-bottom: 1px;
     }
     .desc {
         font-weight: 400;
