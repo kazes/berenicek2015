@@ -52,9 +52,9 @@ $mini_folios = array(
         "url"   => "projet-brandalley"
     ),*/
     array(
-        "title" => "drawings",
+        "title" => "2012 drawings",
         "desc"  => "Carnet de croquis et inspirations",
-        "url"   => "drawings"
+        "url"   => "2012-drawings"
     ),
     /*array(
         "title" => "Fanny & Charles",

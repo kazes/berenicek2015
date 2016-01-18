@@ -19,8 +19,6 @@
                 </h1>
             </div>
 
-            <?php include('inc/2013-drawings.inc.php'); ?>
-
             <?php include('inc/2012-drawings.inc.php'); ?>
 
             <!-- FOOTER - CONTACT -->

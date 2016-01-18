@@ -70,6 +70,8 @@ pm.ajaxHistory = function () {
         '/':'portfolio',
         'contact':'contact',
         'drawings':'drawings',
+        '2012-drawings':'drawings',
+        '2013-drawings':'drawings',
         'projet-brandalley':'portfolio',
         'projet-constance-fournier':'portfolio',
         'projet-emilie-et-charles':'portfolio',
