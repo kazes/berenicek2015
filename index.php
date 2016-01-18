@@ -85,8 +85,17 @@
                         </div>
                     </div>
                 </a>
+
+                <p class="quote line-2" id="edito-2">
+                    J’ai une approche concrète et pragmatique<br>
+                    de la conception et du design d’interface
+                </p>
             </div>
 
+
+            <p class="title-6">
+                Miscellanées
+            </p>
 
             <!-- MINI PORTFOLIO -->
             <?php include('inc/mini-portfolio.inc.php'); ?>

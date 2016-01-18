@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
     text-align: center;
     padding-bottom: 37px;
+    padding-top: 6px;
 
     &:before {
         content: "";
@@ -189,8 +190,8 @@ h1, h2, h3, h4, h5, h6 {
         top: 87px;
     }
 
-    &#edito-1 {
-        padding-top: 6px;
+    &#edito-2 {
+        margin-top: -47px;
     }
 }
 
@@ -368,8 +369,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* PORTFOLIO */
 #portfolio {
-    padding-bottom: 18px;
-    border-bottom: 1px solid $gray4;
     margin-bottom: 20px;
 }
 .project {
@@ -488,6 +487,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     position: relative;
 
+    a:hover {
+        text-decoration: none;
+    }
+
     &:after {
         content: '';
         display: block;
@@ -513,9 +516,10 @@ h1, h2, h3, h4, h5, h6 {
             transform: scale(1.05) rotate(0.1deg);
             transition: transform 300ms;
         }
-        &:hover img {
-            transform: scale(1) rotate(0.1deg);
-        }
+    }
+
+    &:hover .pic img {
+        transform: scale(1) rotate(0.1deg);
     }
     .title {
         letter-spacing: 1.2px;
@@ -533,6 +537,7 @@ h1, h2, h3, h4, h5, h6 {
         color: $gray6;
         padding-bottom: 16px;
     }
+    /*
     .more {
         background-color: $gray4;
         display: block;
@@ -562,7 +567,7 @@ h1, h2, h3, h4, h5, h6 {
             transform: rotate(90deg);
             color: $gray9;
         }
-    }
+    }*/
 }
 
 
