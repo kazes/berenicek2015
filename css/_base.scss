@@ -141,6 +141,30 @@ h1, h2, h3, h4, h5, h6 {
     color: $gray6;
     text-align: center;
 }
+.title-6 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: $gray6;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    padding-bottom: 5px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        margin-left: -6px;
+        top:-25px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 6px 0 6px;
+        border-color: #fff6b0 transparent transparent transparent;
+    }
+}
 .quote {
     font: 40px/47px 'kirimomiswash', Arial, Helvetica, sans-serif;
     position: relative;
@@ -148,9 +172,11 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     font-style: italic;
     text-align: center;
+    padding-bottom: 37px;
 
     &:before {
         content: "";
+        pointer-events: none;
         height: 1px;
         left: 0;
         z-index: -1;
@@ -158,6 +184,13 @@ h1, h2, h3, h4, h5, h6 {
         top: 35px;
         position: absolute;
         background: $gray4;
+    }
+    &.line-2:before {
+        top: 87px;
+    }
+
+    &#edito-1 {
+        padding-top: 6px;
     }
 }
 

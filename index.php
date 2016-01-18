@@ -15,6 +15,15 @@
 
         <div id="page" class="page-width">
             <div id="portfolio">
+                <p class="quote line-2" id="edito-1">
+                    Designer depuis 10 ans, j’aime aider les marques et les gens<br>
+                    à se révéler et à trouver leur voix et leur identité.
+                </p>
+
+                <p class="title-6">
+                    Études de cas
+                </p>
+
                 <!-- PROJECT - USINE À DESIGN -->
                 <a href="projet-usine-a-design" class="project history" id="project-0">
                     <p class="bt-contact">
@@ -24,7 +33,7 @@
                     </p>
                     <div class="inner">
                         <h2 class="title-1">
-                            Directrice artistique web pendant 3 ans chez L’Usine à Design
+                            directrice artistique web pendant 3 ans chez L’Usine à Design
                         </h2>
                         <h3 class="title-2">
                             Identité, charte graphique & web, ergonomie, charte photo, création & gestion des auto-promotions, management d’une équipe, direction de projet.
