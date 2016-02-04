@@ -19,7 +19,7 @@
                 </h1>
             </div>
 
-            <?php include('inc/2016-drawings.inc.php'); ?>
+            <?php include('inc/ny-drawings.inc.php'); ?>
 
             <!-- FOOTER - CONTACT -->
             <?php include('inc/button-contact.inc.php'); ?>

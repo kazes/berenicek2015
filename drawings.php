@@ -21,7 +21,7 @@
                 </h1>
             </div>
 
-            <?php include('inc/2016-drawings.inc.php'); ?>
+            <?php include('inc/ny-drawings.inc.php'); ?>
 
             <?php include('inc/2013-drawings.inc.php'); ?>
 
