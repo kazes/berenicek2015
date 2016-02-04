@@ -58,9 +58,9 @@
                     <a href="drawings" class="history">Drawings</a>
                 </h2>
                 <ul class="list">
-                    <!--<li class="item item-0">
+                    <li class="item item-0">
                         <a href="2016-drawings" class="link history">2016</a>
-                    </li>-->
+                    </li>
                     <!--<li class="item item-1">
                         <a href="" class="link history">2014</a>
                     </li>-->

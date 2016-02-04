@@ -10,9 +10,7 @@
 
         <!-- HEADER -->
         <?php include('inc/header.inc.php'); ?>
-
-        <?php } // if isajax ?>
-
+<?php } // if isajax ?>
         <div id="page" class="page-width page-project">
             <!-- INTRO -->
             <div class="intro border">
@@ -23,16 +21,10 @@
 
             <?php include('inc/2016-drawings.inc.php'); ?>
 
-            <?php include('inc/2013-drawings.inc.php'); ?>
-
-            <?php include('inc/2012-drawings.inc.php'); ?>
-
             <!-- FOOTER - CONTACT -->
             <?php include('inc/button-contact.inc.php'); ?>
         </div>
-
-        <?php if(!isajax()) { ?>
-
+<?php if(!isajax()) { ?>
         <!-- FOOTER -->
         <?php include('inc/footer.inc.php'); ?>
     </div>

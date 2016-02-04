@@ -16,7 +16,7 @@
             <?php } else { ?>
                 <a href="/" title="accueil" class="history">
             <?php }  ?>
-                <img src="img/data/berenicek-logo.png" alt="Bérénice K. Directrice Artistique e-commerce">
+                <img src="img/data/berenicek-logo.png" alt="Bérénice K. - Conception d'expériences &amp; création d'interfaces">
             </a>
         </h1>
 
