@@ -23,7 +23,7 @@
                 Bonjour, je m’appelle Bérénice Krzyzaniak-Boudot,<br>
                 je suis designer interactif depuis 10 ans
                 et je suis spécialisée en identité de marque<br>et en <span style="white-space: nowrap">e-commerce.</span><br>
-                je recherche des gens cools avec qui travailler et des projets motivants auquels adhérer,<br>
+                je recherche des gens cools avec qui travailler et des projets motivants auxquels adhérer,<br>
                 et si on réfléchissait ensemble à votre projet ?
             </p>
 
