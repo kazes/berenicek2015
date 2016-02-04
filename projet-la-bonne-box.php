@@ -54,7 +54,7 @@
                     <li>
                         Mettre en valeur la sélection d’épicerie fine et<br>
                         upgrader les listings produits grâce à<br>
-                        des documents de référence pour le shooting des box,<br>
+                        des documents de référence pour le shooting des boxes,<br>
                         les packshots et les visuels de mise en situation.
                     </li>
                     <li>
@@ -72,7 +72,7 @@
                     <li>
                         Réunir une équipe et diriger le shooting<br>
                         de visuels pour créer des visuels représentatifs<br>
-                        de boxs thématiques.
+                        de boxes thématiques.
                     </li>
                 </ol>
             </div>
