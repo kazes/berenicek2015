@@ -1,12 +1,12 @@
 <?php
 // all data for portfolios
 $mini_folios = array(
-    /*array(
-        "title" => "2016 drawings",
-        "desc"  => "Carnet de croquis & inspirations",
-        "url"   => "drawings-2016"
-    ),
     array(
+        "title" => "new-york city guide",
+        "desc"  => "Carnet de voyage &amp; d'organisation",
+        "url"   => "my-ny-city-guide"
+    ),
+    /*array(
         "title" => "Paris 1850",
         "desc"  => "Création d’un logo pour un projet de reconstitution de Paris en 3D",
         "url"   => "projet-paris-1850"
