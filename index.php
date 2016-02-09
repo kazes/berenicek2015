@@ -78,7 +78,7 @@
                             Création d’une nouvelle identité web pour constance fournier
                         </h2>
                         <h3 class="title-2">
-                            Site vitrine de la créatrice de robe de mariées sur-mesure.
+                            Site vitrine de la créatrice de robes de mariées sur-mesure.
                         </h3>
                         <div class="pic">
                             <img src="img/data/projects/constancefournier/home-preview.png" alt="Constance Fournier">
